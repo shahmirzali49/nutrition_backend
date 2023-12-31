@@ -1,0 +1,13 @@
+source venv/bin/activate        
+pip install -r requirements.txt
+
+# Run the app
+
+uvicorn app.main:app --reload     
+
+
+source bin/activate
+
+
+
+
