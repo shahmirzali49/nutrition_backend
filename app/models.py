@@ -20,7 +20,7 @@ class WeeklyMenu(Base):
 
     id = Column(Integer, primary_key=True, nullable=False)
     week = Column(Integer, nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'))
+    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
     created_at = Column(TIMESTAMP(timezone=True), nullable=False, server_default=text('now()'))
     daily_menus = relationship("DailyMenu")
 
@@ -31,7 +31,7 @@ class DailyMenu(Base):
     id = Column(Integer, primary_key=True, nullable=False)
     status = Column(String, nullable=False)
     day = Column(Integer, nullable=False)
-    weekly_menu_id = Column(Integer, ForeignKey('weekly_menus.id'))
+    weekly_menu_id = Column(Integer, ForeignKey('weekly_menus.id', ondelete="CASCADE"), nullable=False)
     meals = relationship("Meal",secondary="daily_menu_meals") 
 
     # total nutrient values of daily menu
@@ -62,7 +62,7 @@ class MealPreference(Base):
     __tablename__ = "meal_preferences"
 
     id = Column(Integer, primary_key=True, nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'))
+    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
     meal_id = Column(Integer, ForeignKey('meals.id'))
     like = Column(Boolean, nullable=True)  # True için beğeni, False için beğenmeme
 
@@ -75,7 +75,7 @@ class DailyMenuMeal(Base):
 
     id = Column(Integer, primary_key=True,nullable=False, index=True, autoincrement=True)
     daily_menu_id = Column(Integer, ForeignKey('daily_menus.id'), primary_key=True)
-    meal_id = Column(Integer, ForeignKey('meals.id'), primary_key=True)
+    meal_id = Column(Integer, ForeignKey('meals.id'), nullable=False)
 
 
 # -------------------------- Questions --------------------------------
@@ -91,13 +91,13 @@ class Question(Base):
 class Choice(Base):
     __tablename__ = "choices"
     id = Column(Integer, primary_key=True,nullable=False)
-    question_id = Column(Integer, ForeignKey('questions.id'), nullable=False)
+    question_id = Column(Integer, ForeignKey('questions.id', ondelete="CASCADE"), nullable=False)
     text = Column(String, nullable=False)
 
 class UserResponse(Base):
     __tablename__ = "user_responses"
     id = Column(Integer, primary_key=True,nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id'), nullable=False)
+    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
     question_id = Column(Integer, ForeignKey('questions.id'), nullable=False)
     answer = Column(String, nullable=False)
 
