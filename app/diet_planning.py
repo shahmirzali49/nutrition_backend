@@ -25,6 +25,8 @@ def get_diet_menu(user_age: int, user_gender: str, week: int, user_pref_dict: di
     # age = 64
     # gender = "Kadın"
 
+    print(f"user_age {user_age}, user_gender {user_gender}, user_pref_dict {user_pref_dict}")
+
     def parse_age_group(age_group):
         lower, upper = map(int, age_group.split("-"))
         return range(lower, upper + 1)  # üst sınıra 1 ekliyoruz
@@ -332,7 +334,7 @@ def get_diet_menu(user_age: int, user_gender: str, week: int, user_pref_dict: di
                 fiber=sum(df1_indexed.loc[i]["fiber"] for i in selected_dishes)
             )
             
-            day_menu = DayMenu(status="Optimal", day = day, menu=day_menu_meals, total_nutrient_values=total_nutrient_values)
+            day_menu = DayMenu(status=f"{prob.status}", day = day, menu=day_menu_meals, total_nutrient_values=total_nutrient_values)
             weekly_menu.menus.append(day_menu)
 
         weekly_menus.append(weekly_menu)

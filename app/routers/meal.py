@@ -8,6 +8,8 @@ from .. import models, schemas, oauth2
 from ..database import get_db
 from ..models import UserResponse, MealPreference
 from ..diet_planning import get_diet_menu
+from ..database import engine
+from ..db_changes import add_all_meals_from_csv
 
 
 router = APIRouter(
@@ -172,3 +174,11 @@ def set_meal_preference(meal_id: int, like: bool, db: Session = Depends(get_db),
     
     db.commit()
     return {"message": "Meal preference set successfully"}
+
+
+@router.post("/add_all_meals")
+def add_all_meals(
+    db: Session = Depends(get_db)
+):
+    add_all_meals_from_csv(db)
+    return {"message": "All meals added successfully"}

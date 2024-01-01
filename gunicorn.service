@@ -1,0 +1,14 @@
+[Unit]
+Description=Nutrition project
+After=network.target
+
+[Service]
+User=shahmirzali
+Group=shahmirzali
+WorkingDirectory=/home/shahmirzali/app/src
+Environment="PATH=/home/shahmirzali/app/venv/bin"
+EnvironmentFile=/home/shahmirzali/.env
+ExecStart=/home/shahmirzali/app/venv/bin/gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
+
+[Install]
+WantedBy=multi-user.target
