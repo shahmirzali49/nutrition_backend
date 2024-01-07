@@ -44,7 +44,6 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
         # if not post:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,
                             detail=f"{is_user_exist.email} is already exist")
-    # new_user = models.User(**user.dict())
     new_user = models.User(**user.model_dump())
     db.add(new_user)
     db.commit()
