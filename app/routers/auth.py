@@ -9,7 +9,7 @@ router = APIRouter(tags=['Authentication'])
 
  
  
-@router.post('/login', response_model=schemas.Token)
+@router.post('/login', response_model=schemas.UserOut)
 def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(database.get_db)):
 
     user = db.query(models.User).filter(
@@ -28,7 +28,14 @@ def login(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Session =
 
     access_token = oauth2.create_access_token(data={"user_id": user.id})
 
-    return {"access_token": access_token, "token_type": "bearer"}
+    user_out = schemas.UserOut(
+        id=user.id,
+        email=user.email,
+        created_at=user.created_at,
+        access_token=access_token
+    )
+
+    return user_out
 
 
 @router.post("/register", status_code=status.HTTP_201_CREATED, response_model=schemas.UserOut) 
@@ -44,10 +51,21 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
         # if not post:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,
                             detail=f"{is_user_exist.email} is already exist")
+    
+    
     new_user = models.User(**user.model_dump())
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
 
-    return new_user
+    access_token = oauth2.create_access_token(data={"user_id": new_user.id})
+
+    user_out = schemas.UserOut(
+        id=new_user.id,
+        email=new_user.email,
+        created_at=new_user.created_at,
+        access_token=access_token
+    )
+
+    return user_out
 

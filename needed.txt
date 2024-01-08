@@ -9,5 +9,4 @@ uvicorn app.main:app --reload
 source bin/activate
 
 
-
-
+sudo systemctl restart api

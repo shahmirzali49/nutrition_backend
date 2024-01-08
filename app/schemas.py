@@ -1,4 +1,4 @@
-from pydantic import BaseModel, EmailStr 
+from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional, List, Dict
 
@@ -11,6 +11,7 @@ class UserOut(BaseModel):
     id: int
     email: EmailStr
     created_at: datetime
+    access_token: str
 
     class Config:
         from_attributes = True
