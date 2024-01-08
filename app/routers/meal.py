@@ -153,7 +153,43 @@ def list_diet_menus(
     for weekly_menu in weekly_menus:
         weekly_menu.daily_menus.sort(key=lambda x: x.day)
 
-    return weekly_menus
+
+    user_preferences = db.query(models.MealPreference).filter(
+        models.MealPreference.user_id == current_user.id
+    ).all()
+    user_pref_dict = {pref.meal_id: pref.like for pref in user_preferences}
+
+    result = []
+    for weekly_menu in weekly_menus:
+        weekly_menu_data = schemas.WeeklyMenu(
+            week=weekly_menu.week,
+            menus=[
+                schemas.DayMenu(
+                    status=daily_menu.status,
+                    day=daily_menu.day,
+                    menu=[
+                        schemas.Meal(
+                            id=meal.id,
+                            food=meal.food,
+                            price=meal.price,
+                            color=meal.color,
+                            consistency=meal.consistency,
+                            is_liked=user_pref_dict.get(meal.id, None)
+                        ) for meal in daily_menu.meals
+                    ],
+                    total_nutrient_values=schemas.NutrientValues(
+                        energy=daily_menu.total_energy,
+                        carbohydrate=daily_menu.total_carbohydrate,
+                        protein=daily_menu.total_protein,
+                        fat=daily_menu.total_fat,
+                        fiber=daily_menu.total_fiber
+                    )
+                ) for daily_menu in weekly_menu.daily_menus
+            ]
+        )
+        result.append(weekly_menu_data)
+
+    return result
 
 
 @router.post("/preferences")
