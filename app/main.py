@@ -14,7 +14,7 @@ from .routers import user, auth, question, meal
 app = FastAPI()
 
 # origins = ["https://www.google.com"]
-origins = []
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
