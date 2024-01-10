@@ -82,4 +82,5 @@ class DayMenu(BaseModel):
 
 class WeeklyMenu(BaseModel):
     week: int
+    created_at: datetime
     menus: List[DayMenu]

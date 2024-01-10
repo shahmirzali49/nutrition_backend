@@ -163,6 +163,7 @@ def list_diet_menus(
     for weekly_menu in weekly_menus:
         weekly_menu_data = schemas.WeeklyMenu(
             week=weekly_menu.week,
+            created_at=weekly_menu.created_at,
             menus=[
                 schemas.DayMenu(
                     status=daily_menu.status,
