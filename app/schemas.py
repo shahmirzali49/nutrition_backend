@@ -81,6 +81,6 @@ class DayMenu(BaseModel):
     total_nutrient_values: NutrientValues
 
 class WeeklyMenu(BaseModel):
-    week: int
-    created_at: datetime
+    week: int 
+    created_at: Optional[datetime] = None
     menus: List[DayMenu]
