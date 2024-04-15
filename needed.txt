@@ -16,7 +16,7 @@ ssh shahmirzali@167.172.169.246
 
 
 
-1 -> 81f90706917f_remove_unused_tables_and_add_user_
-2 -> 7b54675d0022_edited_userresponses_model
-3 -> 354fcd1d89d4_edited_2_userresponses_model
-4 -> db8e3499f7f1_add_company_id_column_to_user_response_s
+1 -> 81f90706917f _remove_unused_tables_and_add_user_
+2 -> 7b54675d0022 _edited_userresponses_model
+3 -> 354fcd1d89d4 _edited_2_userresponses_model
+4 -> db8e3499f7f1 _add_company_id_column_to_user_response_s
