@@ -1,0 +1,249 @@
+[
+    {
+        "id": 1,
+        "question": "Yaşınız?",
+        "type": "range",
+        "food_category_id": null,
+        "ansers": "18-64"
+    },
+    {
+        "id": 2,
+        "question": "Cinsiyetiniz?",
+        "type": "radio",
+        "food_category_id": null,
+        "ansers": [
+            "Kadın",
+            "Erkek"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Aktivite durumunuz?",
+        "type": "radio",
+        "food_category_id": null,
+        "ansers": [
+            "Çok az hareketli",
+            "Az hareketli",
+            "Orta derecede hareketli",
+            "Çok hareketli"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Medeni durumunuz?",
+        "type": "radio",
+        "food_category_id": null,
+        "ansers": [
+            "Evli",
+            "Bekar"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Köfteleri ne sıklıkla tercih edersiniz?",
+        "type": "radio",
+        "food_category_id": 1,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Kebap veya güveç yemeklerini yemek tercihleriniz arasında ne sıklıkla yer alır?",
+        "type": "radio",
+        "food_category_id": 2,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Et kızartma yemeklerini ne kadar sık tüketirsiniz?",
+        "type": "radio",
+        "food_category_id": 3,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Tavuklu yemekleri ne sıklıkla tercih edersiniz?",
+        "type": "radio",
+        "food_category_id": 4,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Balık yemeklerini ne sıklıkla yersiniz?",
+        "type": "radio",
+        "food_category_id": 5,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Sebzeli yemekleri ne sıklıkla tercih edersiniz?",
+        "type": "radio",
+        "food_category_id": 6,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "Zeytinyağlı yemekleri yeme sıklığınız nedir?",
+        "type": "radio",
+        "food_category_id": 7,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Etli sebze yemeklerini ne kadar sık tüketirsiniz?",
+        "type": "radio",
+        "food_category_id": 8,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Çorbaları ne sıklıkla içersiniz?",
+        "type": "radio",
+        "food_category_id": 9,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Pilavı ne kadar sık tüketirsiniz?",
+        "type": "radio",
+        "food_category_id": 10,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Börek yeme alışkanlığınız ne kadar sık?",
+        "type": "radio",
+        "food_category_id": 11,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Makarna ve erişte yemeklerini ne sıklıkla tercih edersiniz?",
+        "type": "radio",
+        "food_category_id": 12,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 17,
+        "question": "Salatalar ve soğuk yemekleri ne kadar sık tercih edersiniz?",
+        "type": "radio",
+        "food_category_id": 13,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Tatlıları ne sıklıkla tüketirsiniz?",
+        "type": "radio",
+        "food_category_id": 14,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 19,
+        "question": "Günlük içecek tüketiminiz nasıldır?",
+        "type": "radio",
+        "food_category_id": 15,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Meyve tüketim sıklığınız nedir?",
+        "type": "radio",
+        "food_category_id": 16,
+        "ansers": [
+            "hiç",
+            "az",
+            "orta",
+            "sık",
+            "çok sık"
+        ]
+    }
+]

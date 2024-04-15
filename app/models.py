@@ -24,7 +24,6 @@ class WeeklyMenu(Base):
     created_at = Column(TIMESTAMP(timezone=True), nullable=False, server_default=text('now()'))
     daily_menus = relationship("DailyMenu")
 
-
 class DailyMenu(Base):
     __tablename__ = "daily_menus"
     
@@ -32,7 +31,7 @@ class DailyMenu(Base):
     status = Column(String, nullable=False)
     day = Column(Integer, nullable=False)
     weekly_menu_id = Column(Integer, ForeignKey('weekly_menus.id', ondelete="CASCADE"), nullable=False)
-    meals = relationship("Meal",secondary="daily_menu_meals") 
+    # meals = relationship("Meal",secondary="daily_menu_meals") 
 
     # total nutrient values of daily menu
     total_energy = Column(Float, nullable=False)
@@ -58,24 +57,24 @@ class Meal(Base):
     # daily_menu_id = Column(Integer, ForeignKey('daily_menus.id'))
 
 
-class MealPreference(Base):
-    __tablename__ = "meal_preferences"
+# class MealPreference(Base):
+#     __tablename__ = "meal_preferences"
 
-    id = Column(Integer, primary_key=True, nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
-    meal_id = Column(Integer, ForeignKey('meals.id'))
-    like = Column(Boolean, nullable=True)  # True için beğeni, False için beğenmeme
+#     id = Column(Integer, primary_key=True, nullable=False)
+#     user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
+#     meal_id = Column(Integer, ForeignKey('meals.id'))
+#     like = Column(Boolean, nullable=True)  # True için beğeni, False için beğenmeme
 
-    user = relationship("User")
-    meal = relationship("Meal")
+#     user = relationship("User")
+#     meal = relationship("Meal")
 
 
-class DailyMenuMeal(Base):
-    __tablename__ = "daily_menu_meals"
+# class DailyMenuMeal(Base):
+#     __tablename__ = "daily_menu_meals"
 
-    id = Column(Integer, primary_key=True,nullable=False, index=True, autoincrement=True)
-    daily_menu_id = Column(Integer, ForeignKey('daily_menus.id'), primary_key=True)
-    meal_id = Column(Integer, ForeignKey('meals.id'), nullable=False)
+#     id = Column(Integer, primary_key=True,nullable=False, index=True, autoincrement=True)
+#     daily_menu_id = Column(Integer, ForeignKey('daily_menus.id'), primary_key=True)
+#     meal_id = Column(Integer, ForeignKey('meals.id'), nullable=False)
 
 
 # -------------------------- Questions --------------------------------
@@ -94,12 +93,43 @@ class Choice(Base):
     question_id = Column(Integer, ForeignKey('questions.id', ondelete="CASCADE"), nullable=False)
     text = Column(String, nullable=False)
 
-class UserResponse(Base):
-    __tablename__ = "user_responses"
-    id = Column(Integer, primary_key=True,nullable=False)
-    user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
-    question_id = Column(Integer, ForeignKey('questions.id'), nullable=False)
-    answer = Column(String, nullable=False)
+# class UserResponse(Base):
+#     __tablename__ = "user_responses"
+#     id = Column(Integer, primary_key=True,nullable=False)
+#     user_id = Column(Integer, ForeignKey('users.id', ondelete="CASCADE"), nullable=False)
+#     question_id = Column(Integer, ForeignKey('questions.id'), nullable=False)
+#     answer = Column(String, nullable=False)
 
-    user = relationship("User")
-    question = relationship("Question")
+#     user = relationship("User")
+#     question = relationship("Question")
+
+
+
+
+
+# -------------------------- User Responses --------------------------------
+class UserResponses(Base):
+    __tablename__ = 'user_response_s'
+    id = Column(Integer, primary_key=True, nullable=False, autoincrement=True)
+    company_id = Column(Integer, nullable=False)
+    age = Column(Integer, nullable=False)
+    gender = Column(Integer, nullable=False)
+    activity_status = Column(Integer, nullable=False)
+    marital_status = Column(Integer, nullable=False)
+    prefers_kofte = Column(Integer, nullable=False)
+    prefers_kebab_guvec = Column(Integer, nullable=False)
+    prefers_et_kizartma = Column(Integer, nullable=False)
+    prefers_tavuk = Column(Integer, nullable=False)
+    prefers_balik = Column(Integer, nullable=False)
+    prefers_sebze = Column(Integer, nullable=False)
+    prefers_zeytinyagli = Column(Integer, nullable=False)
+    prefers_etli_sebze = Column(Integer, nullable=False)
+    prefers_corba = Column(Integer, nullable=False)
+    prefers_pilav = Column(Integer, nullable=False)
+    prefers_borek = Column(Integer, nullable=False)
+    prefers_makarna_eriste = Column(Integer, nullable=False)
+    prefers_salata_soguk = Column(Integer, nullable=False)
+    prefers_tatli = Column(Integer, nullable=False)
+    prefers_icecek = Column(Integer, nullable=False)
+    prefers_meyve = Column(Integer, nullable=False)
+ 

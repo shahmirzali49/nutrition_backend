@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from . import models
 from .database import engine
-from .routers import user, auth, question, meal
+from .routers import user, auth, question, meal, generation_responses, train_and_predict
 
 # from .config import settings
 
@@ -30,7 +30,9 @@ app.include_router(user.router)
 app.include_router(auth.router)
 app.include_router(question.router)
 app.include_router(meal.router)
-# app.include_router(vote.router)
+app.include_router(generation_responses.router)
+app.include_router(train_and_predict.router)
+
 
 
 @app.get("/")

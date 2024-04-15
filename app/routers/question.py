@@ -5,6 +5,7 @@ from typing import List, Optional
 from sqlalchemy import func
 from .. import models, schemas, oauth2
 from ..database import get_db
+import json
 
 
 router = APIRouter(
@@ -63,3 +64,15 @@ def check_all_questions_answered(
     all_answered = total_questions == answered_questions
 
     return {"is_completed": all_answered}
+
+@router.get("/all")
+def get_all_questions():
+    
+    questions = read_questions_from_json('questions.json')
+    return questions
+
+
+
+def read_questions_from_json(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return json.load(file)

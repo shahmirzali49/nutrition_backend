@@ -65,9 +65,8 @@ class Meal(BaseModel):
     price: int
     color: str
     consistency: str
-    is_liked: Optional[bool] = None
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class NutrientValues(BaseModel):
     energy: float
@@ -76,7 +75,7 @@ class NutrientValues(BaseModel):
     fat: float
     fiber: float
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class DayMenu(BaseModel):
     status: str
@@ -84,12 +83,12 @@ class DayMenu(BaseModel):
     menu: List[Meal]
     total_nutrient_values: NutrientValues
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 class WeeklyMenu(BaseModel):
     week: int 
-    created_at: Optional[datetime] = None
+    # created_at: Optional[datetime] = None
     menus: List[DayMenu]
     
     class Config:
-        orm_mode = True
+        from_attributes = True
