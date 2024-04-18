@@ -9,7 +9,7 @@ from ..database import get_db
 from ..diet_planning import get_diet_menu
 from ..database import engine
 from ..db_changes import add_all_meals_from_csv
-from .train_and_predict import predict
+from .train_and_predict import predict, calculate_without_ai
 
 
 router = APIRouter(
@@ -64,13 +64,26 @@ router = APIRouter(
 
 @router.post("/generate_diet_menu")
 def generate_diet_menu(
-    db: Session = Depends(get_db),
+     calculation_method: Optional[int] = None,
+    user_method: Optional[int] = None,
+    db: Session = Depends(get_db)
     # current_user: schemas.UserOut = Depends(oauth2.get_current_user)
 ):
     
    
-    user_pref_dict = predict(db=db)
-    print("user_pref_dict: ", user_pref_dict)
+    # user_pref_dict_from_predict = predict(db=db)
+    # print("user_pref_dict_from_predict: ", user_pref_dict_from_predict)
+
+    # user_pref_dict_from_survey = calculate_without_ai(db=db)
+    # print("user_pref_dict_from_survey: ", user_pref_dict_from_survey)
+
+    if calculation_method == 1:
+        user_pref_dict = calculate_without_ai(user_method=user_method, db=db)
+    elif calculation_method == 2:
+        user_pref_dict = predict(user_method=user_method,db=db)
+    else:
+        raise ValueError("Unsupported method value")
+    
 
     # Haftalık menüyü oluşturun
     pydantic_weekly_menus: List[schemas.WeeklyMenu] = get_diet_menu( 1, user_pref_dict, db)

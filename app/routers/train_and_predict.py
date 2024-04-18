@@ -1,6 +1,7 @@
 
+from typing import Optional
 from sqlalchemy.orm import Session
-from fastapi import Depends, APIRouter
+from fastapi import Depends, APIRouter, HTTPException
 
 from ..database import get_db
 import pandas as pd
@@ -17,6 +18,8 @@ from fastapi.encoders import jsonable_encoder
 
 import os
 import re
+import glob
+from sqlalchemy import func
 
 
 
@@ -78,7 +81,7 @@ def train_model(db: Session = Depends(get_db)):
 
     # Modeli kaydet
     dump(model, os.path.join(directory, new_filename))
-    
+
     print(f"Model saved as {new_filename}")
 
     # dump(model, 'model.joblib')
@@ -93,10 +96,23 @@ def train_model(db: Session = Depends(get_db)):
 
 
 @router.get("/predict")
-def predict(db: Session = Depends(get_db)):
-    model = load('model.joblib')
-    query_meals = db.query(models.UserResponses).statement
-    data = pd.read_sql_query(query_meals, db.bind)
+def predict( user_method: Optional[int] = None, db: Session = Depends(get_db)):
+    model_files = glob.glob('model_*.joblib')
+    # Dosyaları sırala (en yeni model dosyasını almak için)
+    latest_model_file = max(model_files, key=os.path.getctime)
+    # En son model dosyasını yükle
+    model = load(latest_model_file)
+    # model = load('model.joblib')
+    # query_meals = db.query(models.UserResponses).statement
+    if user_method == 1:
+        max_company_id = db.query(func.max(models.UserResponses.company_id)).scalar() or 0
+        query_meals = db.query(models.UserResponses).filter(models.UserResponses.company_id == max_company_id)
+    elif user_method == 2:
+        query_meals = db.query(models.UserResponses)
+    else:
+        raise HTTPException(status_code=400, detail="Invalid method provided")
+    
+    data = pd.read_sql_query(query_meals.statement, db.bind)
 
     # data = pd.read_csv('user_responses_numeric.csv')
 
@@ -171,3 +187,43 @@ def calculate_question_weights(df):
         question_weights[question] = total_weight
 
     return question_weights
+
+
+@router.get("/survey")
+def calculate_without_ai(user_method: Optional[int] = None, db: Session = Depends(get_db)):
+    # model = load('model.joblib')
+    # query_meals = db.query(models.UserResponses).statement
+
+    # max_company_id = db.query(func.max(UserResponses.company_id)).scalar() or 0
+
+    if user_method == 1:
+        max_company_id = db.query(func.max(models.UserResponses.company_id)).scalar() or 0
+        query_meals = db.query(models.UserResponses).filter(models.UserResponses.company_id == max_company_id)
+    elif user_method == 2:
+        query_meals = db.query(models.UserResponses)
+    else:
+        raise HTTPException(status_code=400, detail="Invalid method provided")
+
+    data = pd.read_sql_query(query_meals.statement, db.bind)
+
+    # data = pd.read_csv('user_responses_numeric.csv')
+
+    # print(data.head())
+
+    # Girdi (X) ve Hedef (Y) Değişkenlerini Belirleme
+    X = data[['age','gender','activity_status','marital_status']]
+    Y = data.drop(['id', 'age','gender','activity_status','marital_status', 'company_id'],axis=1)
+
+    # new_users_predictions_df = pd.DataFrame(predicted, columns=Y.columns)
+    # Fonksiyonu kullanarak dönüşüm uygulayın
+    
+    one_hot_df = convert_to_one_hot(Y)
+    # print(one_hot_df)
+
+    question_weights = calculate_question_weights(one_hot_df)
+    print(question_weights)
+
+    json_compatible_item_data = {key: int(value) for key, value in question_weights.items()}
+
+
+    return json_compatible_item_data
