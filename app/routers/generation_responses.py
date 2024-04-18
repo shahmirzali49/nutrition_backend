@@ -48,7 +48,7 @@ def generate_user_responses(questions, distributions_dict):
     for question in questions:
         dist = distributions_dict.get(question['id'])
         if question['type'] == 'range':
-            age_range = question['ansers'].split('-')
+            age_range = question['ansers']
             answer = random.randint(int(age_range[0]), int(age_range[1]))
         else:
             if dist:
