@@ -80,8 +80,7 @@ def generate_diet_menu(
     if calculation_method == 1:
         user_pref_dict = calculate_without_ai(user_method=user_method, db=db)
     elif calculation_method == 2:
-        user_pref_dict = {}
-        # predict(user_method=user_method,db=db)
+        user_pref_dict = predict(user_method=user_method,db=db)
     else:
         raise ValueError("Unsupported method value")
     
