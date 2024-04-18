@@ -4,7 +4,10 @@
         "question": "Yaşınız?",
         "type": "range",
         "food_category_id": null,
-        "ansers": "18-64"
+        "ansers": [
+            "18",
+            "64"
+        ]
     },
     {
         "id": 2,

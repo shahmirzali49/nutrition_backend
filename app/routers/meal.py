@@ -64,7 +64,7 @@ router = APIRouter(
 
 @router.post("/generate_diet_menu")
 def generate_diet_menu(
-     calculation_method: Optional[int] = None,
+    calculation_method: Optional[int] = None,
     user_method: Optional[int] = None,
     db: Session = Depends(get_db)
     # current_user: schemas.UserOut = Depends(oauth2.get_current_user)
