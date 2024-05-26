@@ -38,9 +38,7 @@ def convert_answers_to_numeric(questions, answer):
             return i
     # Yaş aralığı için özel durum
     if questions['type'] == 'range':
-        return answer  # Zaten sayısal değer
-    
-
+        return answer 
 
 # Kullanıcı verisini rastgele oluşturacak fonksiyon
 def generate_user_responses(questions, distributions_dict):
@@ -59,15 +57,72 @@ def generate_user_responses(questions, distributions_dict):
         user_responses.append(numeric_answer)
     return user_responses
 
+# @router.post("/responses")
+# def generate_and_add_responses_to_db(response_distributions: UserResponseDistributions, db: Session = Depends(get_db)):
+#     questions = read_questions_from_json('questions.json')
+#     distributions_dict = {dist.question_id: dist.weights for dist in response_distributions.distributions if dist.weights}
+
+#     all_user_responses = []
+#     for _ in range(response_distributions.count):  # 300 kullanıcı için cevaplar üret
+#         user_responses = generate_user_responses(questions, distributions_dict)
+#         all_user_responses.append(user_responses)
+
+#     max_company_id = db.query(func.max(UserResponses.company_id)).scalar() or 0
+#     new_company_id = max_company_id + 1
+
+#     mapper = inspect(UserResponses)
+#     attribute_names = [column.key for column in mapper.columns if column.key != 'id' and column.key != 'company_id']
+
+#     try:
+#         for user_responses in all_user_responses:
+#             user_response_data = dict(zip(attribute_names, user_responses))
+#             user_response_data['company_id'] = new_company_id
+#             user_response = UserResponses(**user_response_data)
+                                  
+#             db.add(user_response)
+#         db.commit()
+#         return {"message": f"{len(all_user_responses)} user responses successfully added to the database"}
+#     except Exception as e:
+#         db.rollback()
+#         raise HTTPException(status_code=400, detail=str(e))
+
+
+
+
+
+
+
 @router.post("/responses")
 def generate_and_add_responses_to_db(response_distributions: UserResponseDistributions, db: Session = Depends(get_db)):
     questions = read_questions_from_json('questions.json')
     distributions_dict = {dist.question_id: dist.weights for dist in response_distributions.distributions if dist.weights}
 
     all_user_responses = []
-    for _ in range(response_distributions.count):  # 300 kullanıcı için cevaplar üret
+    response_statistics = []  # Liste içinde sözlükler şeklinde sınıf dağılımını saklamak için güncellendi
+
+    for _ in range(response_distributions.count):
         user_responses = generate_user_responses(questions, distributions_dict)
         all_user_responses.append(user_responses)
+
+        # Her yanıt için sınıf dağılımını güncelle
+        for question, response in zip(questions, user_responses):
+            question_id = question["id"]  # Sorunun ID'sini al
+            question_text = question["question"]  # Sorunun metnini al
+            found = False
+            for stat in response_statistics:
+                if stat['question_id'] == question_id:
+                    if response in stat['dagilim']:
+                        stat['dagilim'][response] += 1
+                    else:
+                        stat['dagilim'][response] = 1
+                    found = True
+                    break
+            if not found:
+                response_statistics.append({
+                    "question": question_text,
+                    "question_id": question_id,
+                    "dagilim": {response: 1}
+                })
 
     max_company_id = db.query(func.max(UserResponses.company_id)).scalar() or 0
     new_company_id = max_company_id + 1
@@ -83,12 +138,55 @@ def generate_and_add_responses_to_db(response_distributions: UserResponseDistrib
                                   
             db.add(user_response)
         db.commit()
-        return {"message": f"{len(all_user_responses)} user responses successfully added to the database"}
+
+        # Yanıt istatistiklerini döndür
+        return response_statistics
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=400, detail=str(e))
 
 
+class UserResponseModel(BaseModel):
+    age: int
+    gender: int
+    activity_status: int
+    marital_status: int
+    prefers_kofte: int
+    prefers_kebab_guvec: int
+    prefers_et_kizartma: int
+    prefers_tavuk: int
+    prefers_balik: int
+    prefers_sebze: int
+    prefers_zeytinyagli: int
+    prefers_etli_sebze: int
+    prefers_corba: int
+    prefers_pilav: int
+    prefers_borek: int
+    prefers_makarna_eriste: int
+    prefers_salata_soguk: int
+    prefers_tatli: int
+    prefers_icecek: int
+    prefers_meyve: int
+    company_id: int  # Eğer otomatik artış değilse, kullanıcı tarafından sağlanmalıdır.
+
+@router.post("/user")
+def create_user_response(response: UserResponseModel, db: Session = Depends(get_db)):
+    db_response = UserResponses(**response.model_dump())
+    db.add(db_response)
+    try:
+        db.commit()
+        db.refresh(db_response)
+        return {"message": "Response successfully saved.", "id": db_response.id}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+
+
+
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # # Kullanıcı verisini rastgele oluşturacak fonksiyon

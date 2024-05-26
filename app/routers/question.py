@@ -54,6 +54,7 @@ def check_all_questions_answered(
     ):
     # Toplam soru sayısını alın
     total_questions = db.query(models.Question).count()
+    
 
     # Kullanıcının cevapladığı farklı soruların sayısını alın
     answered_questions = db.query(models.UserResponse.question_id).filter(

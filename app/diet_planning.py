@@ -20,6 +20,7 @@ def normalize_preferences(user_preferences):
     normalized_preferences = {k: v + offset + 1 for k, v in user_preferences.items()}
     return normalized_preferences
 
+
 def calculate_preferences_percentages(user_preferences):
     normalized_preferences = normalize_preferences(user_preferences)
     total_score = sum(normalized_preferences.values())
@@ -36,9 +37,8 @@ def get_diet_menu(week: int,  user_preferences: dict[str, int], db: Session):
     df2 = pd.read_csv("set2.csv")
 
     df1_indexed = df1.set_index("id")
-
     user_age = 25
-    user_gender = "Kadın"
+    user_gender = "Genel"
     week = 1
    
     # Kullanıcı tercihleri (örnek olarak verilen tercihler)
@@ -344,7 +344,7 @@ def get_diet_menu(week: int,  user_preferences: dict[str, int], db: Session):
 
             update_objective_function(prob, dish_vars, dish_costs)
     
-
+    
      
 
             prob.solve(pl.PULP_CBC_CMD(msg=False))
@@ -354,7 +354,6 @@ def get_diet_menu(week: int,  user_preferences: dict[str, int], db: Session):
             for v in prob.variables():
                 if v.varValue == 1:
                     dish_id = int(v.name.split("_")[1])
-                    
 
                     used_dishes.add(dish_id)
 
@@ -388,5 +387,7 @@ def get_diet_menu(week: int,  user_preferences: dict[str, int], db: Session):
 
 # print(get_diet_menu())
  
+
+
 
 

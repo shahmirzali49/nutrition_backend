@@ -9,6 +9,8 @@ import pandas as pd
 from sqlalchemy.orm import Session
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.multioutput import MultiOutputClassifier
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
 from .. import models
 from fastapi import Depends
@@ -23,10 +25,73 @@ from sqlalchemy import func
 
 
 
+
+
 router = APIRouter(
     prefix="/ai",
     tags=['AI Model']
 )
+
+
+
+
+# @router.get("/traint")
+# def train_model(db: Session = Depends(get_db)):
+
+#     # Veritabanından veriyi çek
+#     query_meals = db.query(models.UserResponses).statement
+#     data = pd.read_sql_query(query_meals, db.bind)
+
+#     # Verinin ilk birkaç satırını kontrol et
+#     print("Data Head:\n", data.head())
+
+#     # Girdi (X) ve Hedef (Y) Değişkenlerini Belirleme
+#     X = data[['age', 'gender', 'activity_status', 'marital_status']]
+#     Y = data.drop(['id', 'age', 'gender', 'activity_status', 'marital_status', 'company_id'], axis=1)
+
+#     # Her bir hedef değişkenin sınıf dağılımını kontrol et
+#     for col in Y.columns:
+#         print(f"Class distribution for {col}:\n{Y[col].value_counts()}\n")
+
+#     # Eğitim ve test setlerini ayır
+#     X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.25, random_state=21)
+
+#     # Eğitim ve test setlerinin boyutlarını kontrol et
+#     print(f"X_train shape: {X_train.shape}, Y_train shape: {Y_train.shape}")
+#     print(f"X_test shape: {X_test.shape}, Y_test shape: {Y_test.shape}")
+
+#     # MultiOutputClassifier ile RandomForestClassifier modelini sarma
+#     model = MultiOutputClassifier(RandomForestClassifier(class_weight='balanced',random_state=21))
+
+#     # Modeli eğitme
+#     model.fit(X_train, Y_train)
+
+#     # Tahminleri yapma
+#     predictions = model.predict(X_test)
+#     print(f"Predictions: {predictions}")
+
+#     # Modelin skoru (genel doğruluk)
+#     score = model.score(X_test, Y_test)
+#     print(f"Score: {score}")
+
+#     # Her bir hedef değişken için performans metriklerini hesapla
+#     performances = {}
+#     for i, col in enumerate(Y.columns):
+#         acc = accuracy_score(Y_test.iloc[:, i], predictions[:, i])
+#         report = classification_report(Y_test.iloc[:, i], predictions[:, i], output_dict=True)
+#         performances[col] = {"Accuracy": acc, "Report": report}
+
+#     # Performans metriklerini döndür
+#     return {"Overall Score": score, "Performance per Target": performances}
+
+
+
+
+
+
+
+
+
 
 @router.get("/train")
 def train_model(db: Session = Depends(get_db)):
@@ -50,6 +115,8 @@ def train_model(db: Session = Depends(get_db)):
     
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     model.fit(X_train, Y_train)
+
+    # model.score(X_test, Y_test)
 
     Y_pred = model.predict(X_test)
     
@@ -86,7 +153,7 @@ def train_model(db: Session = Depends(get_db)):
 
     # dump(model, 'model.joblib')
 
-        # Performans metrikleri
+    # Performans metrikleri
     performances = {}
     for col in Y.columns:
         acc = accuracy_score(Y_test[col], Y_pred[:, Y.columns.get_loc(col)])

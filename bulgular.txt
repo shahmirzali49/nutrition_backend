@@ -1,0 +1,3547 @@
+without ai menu 
+
+[
+  {
+    "week": 1,
+    "menus": [
+      {
+        "status": "1",
+        "day": 1,
+        "menu": [
+          {
+            "id": 22,
+            "food": "Tas kebabı",
+            "price": 500,
+            "color": "kahverengi",
+            "consistency": "yumuşak"
+          },
+          {
+            "id": 92,
+            "food": "Nohutlu Pirinç Çorbası",
+            "price": 100,
+            "color": "beyaz",
+            "consistency": "sıvı"
+          },
+          {
+            "id": 129,
+            "food": "Zeytinyağlı Barbunya",
+            "price": 100,
+            "color": "kahverengi",
+            "consistency": "yumuşak"
+          },
+          {
+            "id": 176,
+            "food": "Yeşil Elma",
+            "price": 100,
+            "color": "yeşil ",
+            "consistency": "katı"
+          }
+        ],
+        "total_nutrient_values": {
+          "energy": 506.1,
+          "carbohydrate": 55.5,
+          "protein": 18.79,
+          "fat": 22.73,
+          "fiber": 11.21
+        }
+      },
+      {
+        "status": "1",
+        "day": 2,
+        "menu": [
+          {
+            "id": 13,
+            "food": "Çiftlik köfte",
+            "price": 400,
+            "color": "kahverengi",
+            "consistency": "katı"
+          },
+          {
+            "id": 82,
+            "food": "Un Çorbası",
+            "price": 100,
+            "color": "beyaz",
+            "consistency": "sıvı"
+          },
+          {
+            "id": 142,
+            "food": "Mantar Sote",
+            "price": 100,
+            "color": "kahverengi",
+            "consistency": "yumuşak"
+          },
+          {
+            "id": 161,
+            "food": "Börülce Salatası",
+            "price": 100,
+            "color": "yeşil",
+            "consistency": "katı"
+          }
+        ],
+        "total_nutrient_values": {
+          "energy": 524.5,
+          "carbohydrate": 47.9,
+          "protein": 26.000000000000004,
+          "fat": 25.100000000000005,
+          "fiber": 8.6
+        }
+      },
+      {
+        "status": "1",
+        "day": 3,
+        "menu": [
+          {
+            "id": 21,
+            "food": "Orman Kebabı",
+            "price": 500,
+            "color": "kırmızı",
+            "consistency": "yumuşak"
+          },
+          {
+            "id": 89,
+            "food": "Ekşili Çorba",
+            "price": 100,
+            "color": "kahverengi",
+            "consistency": "sıvı"
+          },
+          {
+            "id": 123,
+            "food": "Zeytinyağlı Biber Dolma",
+            "price": 100,
+            "color": "yeşil",
+            "consistency": "katı"
+          },
+          {
+            "id": 180,
+            "food": "Şeftali",
+            "price": 100,
+            "color": "turuncu",
+            "consistency": "katı"
+          }
+        ],
+        "total_nutrient_values": {
+          "energy": 557.4,
+          "carbohydrate": 58.199999999999996,
+          "protein": 20.199999999999996,
+          "fat": 26.400000000000002,
+          "fiber": 9.799999999999999
+        }
+      },
+      {
+        "status": "1",
+        "day": 4,
+        "menu": [
+          {
+            "id": 18,
+            "food": "Patlıcan kebabı",
+            "price": 500,
+            "color": "kırmızı",
+            "consistency": "katı"
+          },
+          {
+            "id": 95,
+            "food": "Sütlü Arpa Şehriye Çorbası",
+            "price": 100,
+            "color": "beyaz",
+            "consistency": "sıvı"
+          },
+          {
+            "id": 130,
+            "food": "Zeytinyağlı Enginar",
+            "price": 100,
+            "color": "beyaz",
+            "consistency": "yumuşak"
+          },
+          {
+            "id": 185,
+            "food": "kavun",
+            "price": 100,
+            "color": "sarı",
+            "consistency": "katı"
+          }
+        ],
+        "total_nutrient_values": {
+          "energy": 518.3,
+          "carbohydrate": 46.7,
+          "protein": 19.2,
+          "fat": 27.9,
+          "fiber": 11.399999999999999
+        }
+      },
+      {
+        "status": "1",
+        "day": 5,
+        "menu": [
+          {
+            "id": 19,
+            "food": "Ciğer Tas Kebabı",
+            "price": 500,
+            "color": "kahverengi",
+            "consistency": "katı"
+          },
+          {
+            "id": 91,
+            "food": "Kremalı Mantar Çorbası",
+            "price": 100,
+            "color": "beyaz",
+            "consistency": "sıvı"
+          },
+          {
+            "id": 128,
+            "food": "Zeytinyağlı Kereviz",
+            "price": 100,
+            "color": "beyaz",
+            "consistency": "yumuşak"
+          },
+          {
+            "id": 183,
+            "food": "Üzüm",
+            "price": 100,
+            "color": "yeşil",
+            "consistency": "katı"
+          }
+        ],
+        "total_nutrient_values": {
+          "energy": 507.20000000000005,
+          "carbohydrate": 45.3,
+          "protein": 21.0,
+          "fat": 26.199999999999996,
+          "fiber": 9.1
+        }
+      }
+    ]
+  }
+]
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+with ai menu 
+
+
+
+[
+    {
+        "week": 1,
+        "menus": [
+            {
+                "status": "1",
+                "day": 1,
+                "menu": [
+                    {
+                        "id": 9,
+                        "food": "Tekirdağ köfte",
+                        "price": 400,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 83,
+                        "food": "Yayla Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 130,
+                        "food": "Zeytinyağlı Enginar",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 185,
+                        "food": "kavun",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 551.1999999999999,
+                    "carbohydrate": 49.8,
+                    "protein": 24.500000000000004,
+                    "fat": 27.8,
+                    "fiber": 10.5
+                }
+            },
+            {
+                "status": "1",
+                "day": 2,
+                "menu": [
+                    {
+                        "id": 13,
+                        "food": "Çiftlik köfte",
+                        "price": 400,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 76,
+                        "food": "Domatesli Pirinç Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 126,
+                        "food": "Zeytinyağlı Bakla",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 180,
+                        "food": "Şeftali",
+                        "price": 100,
+                        "color": "turuncu",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 556.9,
+                    "carbohydrate": 60.1,
+                    "protein": 24.4,
+                    "fat": 23.599999999999998,
+                    "fiber": 10.0
+                }
+            },
+            {
+                "status": "1",
+                "day": 3,
+                "menu": [
+                    {
+                        "id": 56,
+                        "food": "Etli Kuru Fasulye",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 78,
+                        "food": "Ezogelin Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 131,
+                        "food": "Zeytinyağlı Mantar",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 183,
+                        "food": "Üzüm",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 539.6999999999999,
+                    "carbohydrate": 59.1,
+                    "protein": 25.3,
+                    "fat": 21.799999999999997,
+                    "fiber": 11.8
+                }
+            },
+            {
+                "status": "1",
+                "day": 4,
+                "menu": [
+                    {
+                        "id": 66,
+                        "food": "Rulo Köfte",
+                        "price": 400,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 81,
+                        "food": "Patates Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 128,
+                        "food": "Zeytinyağlı Kereviz",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 177,
+                        "food": "Tarbzon hurması",
+                        "price": 100,
+                        "color": "turuncu",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 514.6,
+                    "carbohydrate": 41.7,
+                    "protein": 25.7,
+                    "fat": 26.7,
+                    "fiber": 9.8
+                }
+            },
+            {
+                "status": "1",
+                "day": 5,
+                "menu": [
+                    {
+                        "id": 8,
+                        "food": "İzmir Köfte",
+                        "price": 400,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 87,
+                        "food": "Bulgur Çorbası",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 125,
+                        "food": "Zeytinyağlı Taze Fasulye",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 175,
+                        "food": "Kırmızı Elma",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 519.0,
+                    "carbohydrate": 55.8,
+                    "protein": 20.2,
+                    "fat": 23.299999999999997,
+                    "fiber": 8.5
+                }
+            }
+        ]
+    }
+]
+
+
+------------- yapay zeka performance 
+
+
+{
+    "Accuracy": {
+        "prefers_kofte": {
+            "Accuracy": 0.12,
+            "Report": {
+                "0": {
+                    "precision": 0.1111111111111111,
+                    "recall": 0.13333333333333333,
+                    "f1-score": 0.12121212121212122,
+                    "support": 15.0
+                },
+                "1": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.1875,
+                    "f1-score": 0.17647058823529413,
+                    "support": 16.0
+                },
+                "2": {
+                    "precision": 0.11764705882352941,
+                    "recall": 0.07407407407407407,
+                    "f1-score": 0.09090909090909091,
+                    "support": 27.0
+                },
+                "3": {
+                    "precision": 0.1111111111111111,
+                    "recall": 0.1111111111111111,
+                    "f1-score": 0.1111111111111111,
+                    "support": 18.0
+                },
+                "4": {
+                    "precision": 0.10344827586206896,
+                    "recall": 0.125,
+                    "f1-score": 0.11320754716981132,
+                    "support": 24.0
+                },
+                "accuracy": 0.12,
+                "macro avg": {
+                    "precision": 0.12199684471489744,
+                    "recall": 0.12620370370370368,
+                    "f1-score": 0.12258209172748576,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.11992562542258282,
+                    "recall": 0.12,
+                    "f1-score": 0.11813237816567451,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_kebab_guvec": {
+            "Accuracy": 0.22,
+            "Report": {
+                "0": {
+                    "precision": 0.22727272727272727,
+                    "recall": 0.25,
+                    "f1-score": 0.23809523809523808,
+                    "support": 20.0
+                },
+                "1": {
+                    "precision": 0.2,
+                    "recall": 0.16666666666666666,
+                    "f1-score": 0.18181818181818182,
+                    "support": 18.0
+                },
+                "2": {
+                    "precision": 0.28,
+                    "recall": 0.4117647058823529,
+                    "f1-score": 0.3333333333333333,
+                    "support": 17.0
+                },
+                "3": {
+                    "precision": 0.2,
+                    "recall": 0.10714285714285714,
+                    "f1-score": 0.13953488372093023,
+                    "support": 28.0
+                },
+                "4": {
+                    "precision": 0.17391304347826086,
+                    "recall": 0.23529411764705882,
+                    "f1-score": 0.2,
+                    "support": 17.0
+                },
+                "accuracy": 0.22,
+                "macro avg": {
+                    "precision": 0.2162371541501976,
+                    "recall": 0.2341736694677871,
+                    "f1-score": 0.2185563273935367,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.21461976284584983,
+                    "recall": 0.22,
+                    "f1-score": 0.21008275445484748,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_et_kizartma": {
+            "Accuracy": 0.22,
+            "Report": {
+                "0": {
+                    "precision": 0.2608695652173913,
+                    "recall": 0.3157894736842105,
+                    "f1-score": 0.2857142857142857,
+                    "support": 19.0
+                },
+                "1": {
+                    "precision": 0.15384615384615385,
+                    "recall": 0.06666666666666667,
+                    "f1-score": 0.09302325581395349,
+                    "support": 30.0
+                },
+                "2": {
+                    "precision": 0.3333333333333333,
+                    "recall": 0.30434782608695654,
+                    "f1-score": 0.3181818181818182,
+                    "support": 23.0
+                },
+                "3": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.36363636363636365,
+                    "f1-score": 0.22857142857142856,
+                    "support": 11.0
+                },
+                "4": {
+                    "precision": 0.15789473684210525,
+                    "recall": 0.17647058823529413,
+                    "f1-score": 0.16666666666666666,
+                    "support": 17.0
+                },
+                "accuracy": 0.22,
+                "macro avg": {
+                    "precision": 0.21452209118113008,
+                    "recall": 0.2453821836618983,
+                    "f1-score": 0.2184314909896305,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2175611688083084,
+                    "recall": 0.22,
+                    "f1-score": 0.20885069968790898,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_tavuk": {
+            "Accuracy": 0.26,
+            "Report": {
+                "0": {
+                    "precision": 0.36363636363636365,
+                    "recall": 0.4,
+                    "f1-score": 0.38095238095238093,
+                    "support": 20.0
+                },
+                "1": {
+                    "precision": 0.26666666666666666,
+                    "recall": 0.3076923076923077,
+                    "f1-score": 0.2857142857142857,
+                    "support": 26.0
+                },
+                "2": {
+                    "precision": 0.2631578947368421,
+                    "recall": 0.29411764705882354,
+                    "f1-score": 0.2777777777777778,
+                    "support": 17.0
+                },
+                "3": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.11764705882352941,
+                    "f1-score": 0.13793103448275862,
+                    "support": 17.0
+                },
+                "4": {
+                    "precision": 0.17647058823529413,
+                    "recall": 0.15,
+                    "f1-score": 0.16216216216216217,
+                    "support": 20.0
+                },
+                "accuracy": 0.26,
+                "macro avg": {
+                    "precision": 0.24731963598836665,
+                    "recall": 0.2538914027149321,
+                    "f1-score": 0.24890752821787307,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.25042489914626137,
+                    "recall": 0.26,
+                    "f1-score": 0.2535791209929141,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_balik": {
+            "Accuracy": 0.19,
+            "Report": {
+                "0": {
+                    "precision": 0.2727272727272727,
+                    "recall": 0.23076923076923078,
+                    "f1-score": 0.25,
+                    "support": 26.0
+                },
+                "1": {
+                    "precision": 0.24,
+                    "recall": 0.2857142857142857,
+                    "f1-score": 0.2608695652173913,
+                    "support": 21.0
+                },
+                "2": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.13333333333333333,
+                    "f1-score": 0.14814814814814814,
+                    "support": 15.0
+                },
+                "3": {
+                    "precision": 0.08695652173913043,
+                    "recall": 0.15384615384615385,
+                    "f1-score": 0.1111111111111111,
+                    "support": 13.0
+                },
+                "4": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.12,
+                    "f1-score": 0.13953488372093023,
+                    "support": 25.0
+                },
+                "accuracy": 0.19,
+                "macro avg": {
+                    "precision": 0.1866034255599473,
+                    "recall": 0.18473260073260073,
+                    "f1-score": 0.18193274163951617,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.19928010540184452,
+                    "recall": 0.19,
+                    "f1-score": 0.1913329962925514,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_sebze": {
+            "Accuracy": 0.12,
+            "Report": {
+                "0": {
+                    "precision": 0.1,
+                    "recall": 0.08,
+                    "f1-score": 0.08888888888888889,
+                    "support": 25.0
+                },
+                "1": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.17647058823529413,
+                    "f1-score": 0.17142857142857143,
+                    "support": 17.0
+                },
+                "2": {
+                    "precision": 0.05263157894736842,
+                    "recall": 0.058823529411764705,
+                    "f1-score": 0.05555555555555555,
+                    "support": 17.0
+                },
+                "3": {
+                    "precision": 0.21052631578947367,
+                    "recall": 0.23529411764705882,
+                    "f1-score": 0.2222222222222222,
+                    "support": 17.0
+                },
+                "4": {
+                    "precision": 0.08333333333333333,
+                    "recall": 0.08333333333333333,
+                    "f1-score": 0.08333333333333333,
+                    "support": 24.0
+                },
+                "accuracy": 0.12,
+                "macro avg": {
+                    "precision": 0.12263157894736842,
+                    "recall": 0.1267843137254902,
+                    "f1-score": 0.12428571428571429,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.11807017543859648,
+                    "recall": 0.12,
+                    "f1-score": 0.11858730158730157,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_zeytinyagli": {
+            "Accuracy": 0.26,
+            "Report": {
+                "0": {
+                    "precision": 0.2631578947368421,
+                    "recall": 0.3125,
+                    "f1-score": 0.2857142857142857,
+                    "support": 16.0
+                },
+                "1": {
+                    "precision": 0.29411764705882354,
+                    "recall": 0.29411764705882354,
+                    "f1-score": 0.29411764705882354,
+                    "support": 17.0
+                },
+                "2": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.13636363636363635,
+                    "f1-score": 0.15,
+                    "support": 22.0
+                },
+                "3": {
+                    "precision": 0.25925925925925924,
+                    "recall": 0.30434782608695654,
+                    "f1-score": 0.28,
+                    "support": 23.0
+                },
+                "4": {
+                    "precision": 0.3157894736842105,
+                    "recall": 0.2727272727272727,
+                    "f1-score": 0.2926829268292683,
+                    "support": 22.0
+                },
+                "accuracy": 0.26,
+                "macro avg": {
+                    "precision": 0.2597981882811604,
+                    "recall": 0.26401127644733785,
+                    "f1-score": 0.2605029719204755,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2578752436647173,
+                    "recall": 0.26,
+                    "f1-score": 0.2575045296167247,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_etli_sebze": {
+            "Accuracy": 0.18,
+            "Report": {
+                "0": {
+                    "precision": 0.11538461538461539,
+                    "recall": 0.16666666666666666,
+                    "f1-score": 0.13636363636363635,
+                    "support": 18.0
+                },
+                "1": {
+                    "precision": 0.3333333333333333,
+                    "recall": 0.2608695652173913,
+                    "f1-score": 0.2926829268292683,
+                    "support": 23.0
+                },
+                "2": {
+                    "precision": 0.14285714285714285,
+                    "recall": 0.13636363636363635,
+                    "f1-score": 0.13953488372093023,
+                    "support": 22.0
+                },
+                "3": {
+                    "precision": 0.07692307692307693,
+                    "recall": 0.0625,
+                    "f1-score": 0.06896551724137931,
+                    "support": 16.0
+                },
+                "4": {
+                    "precision": 0.22727272727272727,
+                    "recall": 0.23809523809523808,
+                    "f1-score": 0.23255813953488372,
+                    "support": 21.0
+                },
+                "accuracy": 0.18,
+                "macro avg": {
+                    "precision": 0.17915417915417914,
+                    "recall": 0.1728990212685865,
+                    "f1-score": 0.17402102073801956,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.1888994338994339,
+                    "recall": 0.18,
+                    "f1-score": 0.18243189419573716,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_corba": {
+            "Accuracy": 0.14,
+            "Report": {
+                "0": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.11764705882352941,
+                    "f1-score": 0.13793103448275862,
+                    "support": 17.0
+                },
+                "1": {
+                    "precision": 0.23809523809523808,
+                    "recall": 0.18518518518518517,
+                    "f1-score": 0.20833333333333334,
+                    "support": 27.0
+                },
+                "2": {
+                    "precision": 0.07692307692307693,
+                    "recall": 0.11764705882352941,
+                    "f1-score": 0.09302325581395349,
+                    "support": 17.0
+                },
+                "3": {
+                    "precision": 0.125,
+                    "recall": 0.1875,
+                    "f1-score": 0.15,
+                    "support": 16.0
+                },
+                "4": {
+                    "precision": 0.11764705882352941,
+                    "recall": 0.08695652173913043,
+                    "f1-score": 0.1,
+                    "support": 23.0
+                },
+                "accuracy": 0.14,
+                "macro avg": {
+                    "precision": 0.14486640810170223,
+                    "recall": 0.13898716491427487,
+                    "f1-score": 0.13785752472600907,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.15275479422538246,
+                    "recall": 0.14,
+                    "f1-score": 0.14251222935044106,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_pilav": {
+            "Accuracy": 0.18,
+            "Report": {
+                "0": {
+                    "precision": 0.14285714285714285,
+                    "recall": 0.16666666666666666,
+                    "f1-score": 0.15384615384615385,
+                    "support": 24.0
+                },
+                "1": {
+                    "precision": 0.11764705882352941,
+                    "recall": 0.14285714285714285,
+                    "f1-score": 0.12903225806451613,
+                    "support": 14.0
+                },
+                "2": {
+                    "precision": 0.26666666666666666,
+                    "recall": 0.21052631578947367,
+                    "f1-score": 0.23529411764705882,
+                    "support": 19.0
+                },
+                "3": {
+                    "precision": 0.19230769230769232,
+                    "recall": 0.2777777777777778,
+                    "f1-score": 0.22727272727272727,
+                    "support": 18.0
+                },
+                "4": {
+                    "precision": 0.21428571428571427,
+                    "recall": 0.12,
+                    "f1-score": 0.15384615384615385,
+                    "support": 25.0
+                },
+                "accuracy": 0.18,
+                "macro avg": {
+                    "precision": 0.1867528549881491,
+                    "recall": 0.1835655806182122,
+                    "f1-score": 0.179858282135322,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.18960978237448825,
+                    "recall": 0.18,
+                    "f1-score": 0.17906410477567974,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_borek": {
+            "Accuracy": 0.25,
+            "Report": {
+                "0": {
+                    "precision": 0.3333333333333333,
+                    "recall": 0.22727272727272727,
+                    "f1-score": 0.2702702702702703,
+                    "support": 22.0
+                },
+                "1": {
+                    "precision": 0.32,
+                    "recall": 0.2962962962962963,
+                    "f1-score": 0.3076923076923077,
+                    "support": 27.0
+                },
+                "2": {
+                    "precision": 0.21052631578947367,
+                    "recall": 0.23529411764705882,
+                    "f1-score": 0.2222222222222222,
+                    "support": 17.0
+                },
+                "3": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.21052631578947367,
+                    "f1-score": 0.18604651162790697,
+                    "support": 19.0
+                },
+                "4": {
+                    "precision": 0.23529411764705882,
+                    "recall": 0.26666666666666666,
+                    "f1-score": 0.25,
+                    "support": 15.0
+                },
+                "accuracy": 0.25,
+                "macro avg": {
+                    "precision": 0.2531640866873065,
+                    "recall": 0.24721122473444454,
+                    "f1-score": 0.24724626236254146,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2624835913312693,
+                    "recall": 0.25,
+                    "f1-score": 0.25316299752346266,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_makarna_eriste": {
+            "Accuracy": 0.23,
+            "Report": {
+                "0": {
+                    "precision": 0.36363636363636365,
+                    "recall": 0.4,
+                    "f1-score": 0.38095238095238093,
+                    "support": 20.0
+                },
+                "1": {
+                    "precision": 0.09523809523809523,
+                    "recall": 0.09090909090909091,
+                    "f1-score": 0.09302325581395349,
+                    "support": 22.0
+                },
+                "2": {
+                    "precision": 0.14285714285714285,
+                    "recall": 0.26666666666666666,
+                    "f1-score": 0.18604651162790697,
+                    "support": 15.0
+                },
+                "3": {
+                    "precision": 0.5454545454545454,
+                    "recall": 0.2857142857142857,
+                    "f1-score": 0.375,
+                    "support": 21.0
+                },
+                "4": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.13636363636363635,
+                    "f1-score": 0.15,
+                    "support": 22.0
+                },
+                "accuracy": 0.23,
+                "macro avg": {
+                    "precision": 0.26277056277056277,
+                    "recall": 0.23593073593073594,
+                    "f1-score": 0.23700442967884827,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2663203463203463,
+                    "recall": 0.23,
+                    "f1-score": 0.236312569213732,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_salata_soguk": {
+            "Accuracy": 0.21,
+            "Report": {
+                "0": {
+                    "precision": 0.25,
+                    "recall": 0.2,
+                    "f1-score": 0.2222222222222222,
+                    "support": 20.0
+                },
+                "1": {
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "f1-score": 0.0,
+                    "support": 16.0
+                },
+                "2": {
+                    "precision": 0.2692307692307692,
+                    "recall": 0.28,
+                    "f1-score": 0.27450980392156865,
+                    "support": 25.0
+                },
+                "3": {
+                    "precision": 0.2608695652173913,
+                    "recall": 0.35294117647058826,
+                    "f1-score": 0.3,
+                    "support": 17.0
+                },
+                "4": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.18181818181818182,
+                    "f1-score": 0.17391304347826086,
+                    "support": 22.0
+                },
+                "accuracy": 0.21,
+                "macro avg": {
+                    "precision": 0.18935340022296543,
+                    "recall": 0.20295187165775402,
+                    "f1-score": 0.19412901392441034,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.1983221850613155,
+                    "recall": 0.21,
+                    "f1-score": 0.20233276499005398,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_tatli": {
+            "Accuracy": 0.18,
+            "Report": {
+                "0": {
+                    "precision": 0.125,
+                    "recall": 0.05263157894736842,
+                    "f1-score": 0.07407407407407407,
+                    "support": 19.0
+                },
+                "1": {
+                    "precision": 0.18181818181818182,
+                    "recall": 0.2608695652173913,
+                    "f1-score": 0.21428571428571427,
+                    "support": 23.0
+                },
+                "2": {
+                    "precision": 0.2222222222222222,
+                    "recall": 0.2857142857142857,
+                    "f1-score": 0.25,
+                    "support": 14.0
+                },
+                "3": {
+                    "precision": 0.10526315789473684,
+                    "recall": 0.1,
+                    "f1-score": 0.10256410256410256,
+                    "support": 20.0
+                },
+                "4": {
+                    "precision": 0.22727272727272727,
+                    "recall": 0.20833333333333334,
+                    "f1-score": 0.21739130434782608,
+                    "support": 24.0
+                },
+                "accuracy": 0.18,
+                "macro avg": {
+                    "precision": 0.17231525784157362,
+                    "recall": 0.18150975264247576,
+                    "f1-score": 0.17166303905434338,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.17227737905369483,
+                    "recall": 0.18,
+                    "f1-score": 0.17104652191608716,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_icecek": {
+            "Accuracy": 0.2,
+            "Report": {
+                "0": {
+                    "precision": 0.2222222222222222,
+                    "recall": 0.2,
+                    "f1-score": 0.21052631578947367,
+                    "support": 20.0
+                },
+                "1": {
+                    "precision": 0.16129032258064516,
+                    "recall": 0.22727272727272727,
+                    "f1-score": 0.18867924528301888,
+                    "support": 22.0
+                },
+                "2": {
+                    "precision": 0.2,
+                    "recall": 0.11764705882352941,
+                    "f1-score": 0.14814814814814814,
+                    "support": 17.0
+                },
+                "3": {
+                    "precision": 0.29411764705882354,
+                    "recall": 0.19230769230769232,
+                    "f1-score": 0.23255813953488372,
+                    "support": 26.0
+                },
+                "4": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.26666666666666666,
+                    "f1-score": 0.20512820512820512,
+                    "support": 15.0
+                },
+                "accuracy": 0.2,
+                "macro avg": {
+                    "precision": 0.20885937170567154,
+                    "recall": 0.2007788290141231,
+                    "f1-score": 0.19700801077674587,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2153989036474805,
+                    "recall": 0.2,
+                    "f1-score": 0.20003422935364462,
+                    "support": 100.0
+                }
+            }
+        },
+        "prefers_meyve": {
+            "Accuracy": 0.19,
+            "Report": {
+                "0": {
+                    "precision": 0.38095238095238093,
+                    "recall": 0.32,
+                    "f1-score": 0.34782608695652173,
+                    "support": 25.0
+                },
+                "1": {
+                    "precision": 0.09090909090909091,
+                    "recall": 0.05555555555555555,
+                    "f1-score": 0.06896551724137931,
+                    "support": 18.0
+                },
+                "2": {
+                    "precision": 0.14285714285714285,
+                    "recall": 0.09523809523809523,
+                    "f1-score": 0.11428571428571428,
+                    "support": 21.0
+                },
+                "3": {
+                    "precision": 0.15,
+                    "recall": 0.17647058823529413,
+                    "f1-score": 0.16216216216216217,
+                    "support": 17.0
+                },
+                "4": {
+                    "precision": 0.14705882352941177,
+                    "recall": 0.2631578947368421,
+                    "f1-score": 0.18867924528301888,
+                    "support": 19.0
+                },
+                "accuracy": 0.19,
+                "macro avg": {
+                    "precision": 0.18235548764960532,
+                    "recall": 0.1820844267531574,
+                    "f1-score": 0.17638374518575928,
+                    "support": 100.0
+                },
+                "weighted avg": {
+                    "precision": 0.19504290807231983,
+                    "recall": 0.19,
+                    "f1-score": 0.18678693901391988,
+                    "support": 100.0
+                }
+            }
+        }
+    }
+}
+
+
+
+---------------------------------- test 2 ---------------------------
+
+
+without ai menu 
+
+[
+    {
+        "week": 1,
+        "menus": [
+            {
+                "status": "1",
+                "day": 1,
+                "menu": [
+                    {
+                        "id": 15,
+                        "food": "Döner kebap",
+                        "price": 500,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 71,
+                        "food": "Kremalı Domates Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 142,
+                        "food": "Mantar Sote",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 157,
+                        "food": "Marul Salatası",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 554.0999999999999,
+                    "carbohydrate": 57.10000000000001,
+                    "protein": 26.199999999999996,
+                    "fat": 23.9,
+                    "fiber": 8.2
+                }
+            },
+            {
+                "status": "1",
+                "day": 2,
+                "menu": [
+                    {
+                        "id": 18,
+                        "food": "Patlıcan kebabı",
+                        "price": 500,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 78,
+                        "food": "Ezogelin Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 122,
+                        "food": "Şehriyeli Pirinç Pilavı",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 165,
+                        "food": "Yoğurtlu Kereviz Salatası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 550.4,
+                    "carbohydrate": 55.7,
+                    "protein": 22.899999999999995,
+                    "fat": 25.8,
+                    "fiber": 9.4
+                }
+            },
+            {
+                "status": "1",
+                "day": 3,
+                "menu": [
+                    {
+                        "id": 22,
+                        "food": "Tas kebabı",
+                        "price": 500,
+                        "color": "kahverengi",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 92,
+                        "food": "Nohutlu Pirinç Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 120,
+                        "food": "Sebzeli Pilav",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 151,
+                        "food": "Domatesli Patlıcan Salatası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 555.3000000000001,
+                    "carbohydrate": 61.9,
+                    "protein": 22.4,
+                    "fat": 23.7,
+                    "fiber": 11.0
+                }
+            },
+            {
+                "status": "1",
+                "day": 4,
+                "menu": [
+                    {
+                        "id": 19,
+                        "food": "Ciğer Tas Kebabı",
+                        "price": 500,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 76,
+                        "food": "Domatesli Pirinç Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 133,
+                        "food": "Sebze Yemeği",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 174,
+                        "food": "Piyaz",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 538.9000000000001,
+                    "carbohydrate": 51.1,
+                    "protein": 25.9,
+                    "fat": 25.1,
+                    "fiber": 9.1
+                }
+            },
+            {
+                "status": "1",
+                "day": 5,
+                "menu": [
+                    {
+                        "id": 21,
+                        "food": "Orman Kebabı",
+                        "price": 500,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 89,
+                        "food": "Ekşili Çorba",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 118,
+                        "food": "Havuçlu Pilav",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 153,
+                        "food": "Havuç Salatası",
+                        "price": 100,
+                        "color": "turuncu",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 507.59999999999997,
+                    "carbohydrate": 51.7,
+                    "protein": 19.2,
+                    "fat": 24.5,
+                    "fiber": 8.4
+                }
+            }
+        ]
+    }
+]
+
+
+-------------------------------------------------------------------------------------------------
+
+with ai menu
+
+[
+    {
+        "week": 1,
+        "menus": [
+            {
+                "status": "1",
+                "day": 1,
+                "menu": [
+                    {
+                        "id": 53,
+                        "food": "Kıymalı Kapuska",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 84,
+                        "food": "Yeşil Mercimek Çorbası",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 114,
+                        "food": "Bulgur pilavı",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 200,
+                        "food": "Tahin Helvası",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 570.6999999999999,
+                    "carbohydrate": 62.099999999999994,
+                    "protein": 21.400000000000002,
+                    "fat": 27.1,
+                    "fiber": 10.700000000000001
+                }
+            },
+            {
+                "status": "1",
+                "day": 2,
+                "menu": [
+                    {
+                        "id": 41,
+                        "food": "Menemen",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 92,
+                        "food": "Nohutlu Pirinç Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 115,
+                        "food": "Buhara Pilavı",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 209,
+                        "food": "Lahana Turşusu",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 505.5,
+                    "carbohydrate": 43.8,
+                    "protein": 20.1,
+                    "fat": 26.7,
+                    "fiber": 9.899999999999999
+                }
+            },
+            {
+                "status": "1",
+                "day": 3,
+                "menu": [
+                    {
+                        "id": 55,
+                        "food": "Etli Nohut",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 93,
+                        "food": "Salçalı Pirinç Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 122,
+                        "food": "Şehriyeli Pirinç Pilavı",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 208,
+                        "food": "Salatalık turşusu",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 506.4,
+                    "carbohydrate": 61.5,
+                    "protein": 19.900000000000002,
+                    "fat": 19.6,
+                    "fiber": 11.1
+                }
+            },
+            {
+                "status": "1",
+                "day": 4,
+                "menu": [
+                    {
+                        "id": 52,
+                        "food": "Kıymalı Karnabahar",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 75,
+                        "food": "Bezelye Çorbası",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 118,
+                        "food": "Havuçlu Pilav",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 196,
+                        "food": "Balkabağı Tatlısı",
+                        "price": 100,
+                        "color": "turuncu",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 521.4,
+                    "carbohydrate": 61.099999999999994,
+                    "protein": 20.400000000000002,
+                    "fat": 21.299999999999997,
+                    "fiber": 9.700000000000001
+                }
+            },
+            {
+                "status": "1",
+                "day": 5,
+                "menu": [
+                    {
+                        "id": 50,
+                        "food": "Kıymalı Ispanak",
+                        "price": 300,
+                        "color": "yeşil",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 87,
+                        "food": "Bulgur Çorbası",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 113,
+                        "food": "Pirinç Pilavı",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 174,
+                        "food": "Piyaz",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 526.7,
+                    "carbohydrate": 57.3,
+                    "protein": 22.3,
+                    "fat": 22.5,
+                    "fiber": 8.3
+                }
+            }
+        ]
+    }
+]
+
+
+------------------------ yapay zeka model performance degerleri -----------------
+
+{
+    "Accuracy": {
+        "prefers_kebab_guvec": {
+            "Accuracy": 0.20272727272727273,
+            "Report": {
+                "0": {
+                    "precision": 0.17582417582417584,
+                    "recall": 0.14479638009049775,
+                    "f1-score": 0.1588089330024814,
+                    "support": 221.0
+                },
+                "1": {
+                    "precision": 0.20754716981132076,
+                    "recall": 0.18803418803418803,
+                    "f1-score": 0.19730941704035873,
+                    "support": 234.0
+                },
+                "2": {
+                    "precision": 0.16964285714285715,
+                    "recall": 0.19,
+                    "f1-score": 0.1792452830188679,
+                    "support": 200.0
+                },
+                "3": {
+                    "precision": 0.2328767123287671,
+                    "recall": 0.2328767123287671,
+                    "f1-score": 0.2328767123287671,
+                    "support": 219.0
+                },
+                "4": {
+                    "precision": 0.22053231939163498,
+                    "recall": 0.25663716814159293,
+                    "f1-score": 0.23721881390593047,
+                    "support": 226.0
+                },
+                "accuracy": 0.20272727272727273,
+                "macro avg": {
+                    "precision": 0.20128464689975117,
+                    "recall": 0.20246888971900917,
+                    "f1-score": 0.2010918318592811,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20199277836733895,
+                    "recall": 0.20272727272727273,
+                    "f1-score": 0.20157062393409655,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_et_kizartma": {
+            "Accuracy": 0.19272727272727272,
+            "Report": {
+                "0": {
+                    "precision": 0.1837837837837838,
+                    "recall": 0.1717171717171717,
+                    "f1-score": 0.17754569190600522,
+                    "support": 198.0
+                },
+                "1": {
+                    "precision": 0.24166666666666667,
+                    "recall": 0.23673469387755103,
+                    "f1-score": 0.23917525773195877,
+                    "support": 245.0
+                },
+                "2": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.17452830188679244,
+                    "f1-score": 0.17050691244239632,
+                    "support": 212.0
+                },
+                "3": {
+                    "precision": 0.2028301886792453,
+                    "recall": 0.19724770642201836,
+                    "f1-score": 0.2,
+                    "support": 218.0
+                },
+                "4": {
+                    "precision": 0.16597510373443983,
+                    "recall": 0.1762114537444934,
+                    "f1-score": 0.17094017094017094,
+                    "support": 227.0
+                },
+                "accuracy": 0.19272727272727272,
+                "macro avg": {
+                    "precision": 0.19218448190616044,
+                    "recall": 0.1912878655296054,
+                    "f1-score": 0.19163360660410628,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.19347653230513562,
+                    "recall": 0.19272727272727272,
+                    "f1-score": 0.19300260852993248,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_tavuk": {
+            "Accuracy": 0.21454545454545454,
+            "Report": {
+                "0": {
+                    "precision": 0.16593886462882096,
+                    "recall": 0.17117117117117117,
+                    "f1-score": 0.16851441241685144,
+                    "support": 222.0
+                },
+                "1": {
+                    "precision": 0.25213675213675213,
+                    "recall": 0.2610619469026549,
+                    "f1-score": 0.2565217391304348,
+                    "support": 226.0
+                },
+                "2": {
+                    "precision": 0.21568627450980393,
+                    "recall": 0.20853080568720378,
+                    "f1-score": 0.21204819277108433,
+                    "support": 211.0
+                },
+                "3": {
+                    "precision": 0.20476190476190476,
+                    "recall": 0.19815668202764977,
+                    "f1-score": 0.20140515222482436,
+                    "support": 217.0
+                },
+                "4": {
+                    "precision": 0.23318385650224216,
+                    "recall": 0.23214285714285715,
+                    "f1-score": 0.232662192393736,
+                    "support": 224.0
+                },
+                "accuracy": 0.21454545454545454,
+                "macro avg": {
+                    "precision": 0.21434153050790478,
+                    "recall": 0.21421269258630735,
+                    "f1-score": 0.2142303377873862,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2145433227653713,
+                    "recall": 0.21454545454545454,
+                    "f1-score": 0.2144977549124562,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_balik": {
+            "Accuracy": 0.19363636363636363,
+            "Report": {
+                "0": {
+                    "precision": 0.2217391304347826,
+                    "recall": 0.2125,
+                    "f1-score": 0.2170212765957447,
+                    "support": 240.0
+                },
+                "1": {
+                    "precision": 0.16517857142857142,
+                    "recall": 0.1712962962962963,
+                    "f1-score": 0.16818181818181818,
+                    "support": 216.0
+                },
+                "2": {
+                    "precision": 0.2,
+                    "recall": 0.195,
+                    "f1-score": 0.19746835443037974,
+                    "support": 200.0
+                },
+                "3": {
+                    "precision": 0.2028301886792453,
+                    "recall": 0.21287128712871287,
+                    "f1-score": 0.20772946859903382,
+                    "support": 202.0
+                },
+                "4": {
+                    "precision": 0.1799163179916318,
+                    "recall": 0.17768595041322313,
+                    "f1-score": 0.1787941787941788,
+                    "support": 242.0
+                },
+                "accuracy": 0.19363636363636363,
+                "macro avg": {
+                    "precision": 0.19393284170684622,
+                    "recall": 0.19387070676764645,
+                    "f1-score": 0.19383901932023104,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.1940067361819106,
+                    "recall": 0.19363636363636363,
+                    "f1-score": 0.1937596308377486,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_sebze": {
+            "Accuracy": 0.20363636363636364,
+            "Report": {
+                "0": {
+                    "precision": 0.23267326732673269,
+                    "recall": 0.19183673469387755,
+                    "f1-score": 0.21029082774049218,
+                    "support": 245.0
+                },
+                "1": {
+                    "precision": 0.2032520325203252,
+                    "recall": 0.23148148148148148,
+                    "f1-score": 0.21645021645021645,
+                    "support": 216.0
+                },
+                "2": {
+                    "precision": 0.1464968152866242,
+                    "recall": 0.10697674418604651,
+                    "f1-score": 0.12365591397849462,
+                    "support": 215.0
+                },
+                "3": {
+                    "precision": 0.24193548387096775,
+                    "recall": 0.2564102564102564,
+                    "f1-score": 0.24896265560165975,
+                    "support": 234.0
+                },
+                "4": {
+                    "precision": 0.17813765182186234,
+                    "recall": 0.23157894736842105,
+                    "f1-score": 0.20137299771167047,
+                    "support": 190.0
+                },
+                "accuracy": 0.20363636363636364,
+                "macro avg": {
+                    "precision": 0.20049905016530242,
+                    "recall": 0.2036568328280166,
+                    "f1-score": 0.2001465222965067,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2026029653436584,
+                    "recall": 0.20363636363636364,
+                    "f1-score": 0.20125332002822677,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_zeytinyagli": {
+            "Accuracy": 0.21,
+            "Report": {
+                "0": {
+                    "precision": 0.2077922077922078,
+                    "recall": 0.22018348623853212,
+                    "f1-score": 0.21380846325167038,
+                    "support": 218.0
+                },
+                "1": {
+                    "precision": 0.22727272727272727,
+                    "recall": 0.2422907488986784,
+                    "f1-score": 0.2345415778251599,
+                    "support": 227.0
+                },
+                "2": {
+                    "precision": 0.19811320754716982,
+                    "recall": 0.1917808219178082,
+                    "f1-score": 0.19489559164733178,
+                    "support": 219.0
+                },
+                "3": {
+                    "precision": 0.18877551020408162,
+                    "recall": 0.16972477064220184,
+                    "f1-score": 0.178743961352657,
+                    "support": 218.0
+                },
+                "4": {
+                    "precision": 0.2237442922374429,
+                    "recall": 0.22477064220183487,
+                    "f1-score": 0.2242562929061785,
+                    "support": 218.0
+                },
+                "accuracy": 0.21,
+                "macro avg": {
+                    "precision": 0.20913958901072585,
+                    "recall": 0.2097500939798111,
+                    "f1-score": 0.2092491773965995,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20927792706790266,
+                    "recall": 0.21,
+                    "f1-score": 0.20944306650397024,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_etli_sebze": {
+            "Accuracy": 0.20363636363636364,
+            "Report": {
+                "0": {
+                    "precision": 0.20600858369098712,
+                    "recall": 0.2033898305084746,
+                    "f1-score": 0.2046908315565032,
+                    "support": 236.0
+                },
+                "1": {
+                    "precision": 0.23684210526315788,
+                    "recall": 0.21844660194174756,
+                    "f1-score": 0.22727272727272727,
+                    "support": 206.0
+                },
+                "2": {
+                    "precision": 0.22727272727272727,
+                    "recall": 0.20179372197309417,
+                    "f1-score": 0.21377672209026127,
+                    "support": 223.0
+                },
+                "3": {
+                    "precision": 0.2076271186440678,
+                    "recall": 0.22171945701357465,
+                    "f1-score": 0.21444201312910285,
+                    "support": 221.0
+                },
+                "4": {
+                    "precision": 0.1522633744855967,
+                    "recall": 0.17289719626168223,
+                    "f1-score": 0.16192560175054704,
+                    "support": 214.0
+                },
+                "accuracy": 0.20363636363636364,
+                "macro avg": {
+                    "precision": 0.20600278187130736,
+                    "recall": 0.20364936153971466,
+                    "f1-score": 0.20442157915982834,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20596297543396214,
+                    "recall": 0.20363636363636364,
+                    "f1-score": 0.20440108251617603,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_corba": {
+            "Accuracy": 0.18545454545454546,
+            "Report": {
+                "0": {
+                    "precision": 0.16751269035532995,
+                    "recall": 0.17098445595854922,
+                    "f1-score": 0.16923076923076924,
+                    "support": 193.0
+                },
+                "1": {
+                    "precision": 0.22727272727272727,
+                    "recall": 0.21551724137931033,
+                    "f1-score": 0.22123893805309736,
+                    "support": 232.0
+                },
+                "2": {
+                    "precision": 0.17094017094017094,
+                    "recall": 0.17777777777777778,
+                    "f1-score": 0.17429193899782136,
+                    "support": 225.0
+                },
+                "3": {
+                    "precision": 0.21428571428571427,
+                    "recall": 0.21074380165289255,
+                    "f1-score": 0.2125,
+                    "support": 242.0
+                },
+                "4": {
+                    "precision": 0.14218009478672985,
+                    "recall": 0.14423076923076922,
+                    "f1-score": 0.1431980906921241,
+                    "support": 208.0
+                },
+                "accuracy": 0.18545454545454546,
+                "macro avg": {
+                    "precision": 0.18443827952813446,
+                    "recall": 0.1838508091998598,
+                    "f1-score": 0.18409194739476242,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.18631760272742956,
+                    "recall": 0.18545454545454546,
+                    "f1-score": 0.1858316920257533,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_pilav": {
+            "Accuracy": 0.18272727272727274,
+            "Report": {
+                "0": {
+                    "precision": 0.1778846153846154,
+                    "recall": 0.15352697095435686,
+                    "f1-score": 0.16481069042316257,
+                    "support": 241.0
+                },
+                "1": {
+                    "precision": 0.193717277486911,
+                    "recall": 0.1778846153846154,
+                    "f1-score": 0.18546365914786966,
+                    "support": 208.0
+                },
+                "2": {
+                    "precision": 0.16901408450704225,
+                    "recall": 0.16666666666666666,
+                    "f1-score": 0.16783216783216784,
+                    "support": 216.0
+                },
+                "3": {
+                    "precision": 0.16666666666666666,
+                    "recall": 0.1990521327014218,
+                    "f1-score": 0.18142548596112312,
+                    "support": 211.0
+                },
+                "4": {
+                    "precision": 0.2076271186440678,
+                    "recall": 0.21875,
+                    "f1-score": 0.21304347826086956,
+                    "support": 224.0
+                },
+                "accuracy": 0.18272727272727274,
+                "macro avg": {
+                    "precision": 0.1829819525378606,
+                    "recall": 0.18317607714141215,
+                    "f1-score": 0.18251509632503854,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.18304142683766253,
+                    "recall": 0.18272727272727274,
+                    "f1-score": 0.18231825674065372,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_borek": {
+            "Accuracy": 0.21,
+            "Report": {
+                "0": {
+                    "precision": 0.20161290322580644,
+                    "recall": 0.211864406779661,
+                    "f1-score": 0.2066115702479339,
+                    "support": 236.0
+                },
+                "1": {
+                    "precision": 0.17333333333333334,
+                    "recall": 0.20207253886010362,
+                    "f1-score": 0.18660287081339713,
+                    "support": 193.0
+                },
+                "2": {
+                    "precision": 0.20093457943925233,
+                    "recall": 0.2028301886792453,
+                    "f1-score": 0.20187793427230047,
+                    "support": 212.0
+                },
+                "3": {
+                    "precision": 0.1724137931034483,
+                    "recall": 0.16355140186915887,
+                    "f1-score": 0.16786570743405277,
+                    "support": 214.0
+                },
+                "4": {
+                    "precision": 0.3047619047619048,
+                    "recall": 0.2612244897959184,
+                    "f1-score": 0.2813186813186813,
+                    "support": 245.0
+                },
+                "accuracy": 0.21,
+                "macro avg": {
+                    "precision": 0.21061130277274903,
+                    "recall": 0.20830860519681743,
+                    "f1-score": 0.20885535281727313,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2138139342968634,
+                    "recall": 0.21,
+                    "f1-score": 0.21129013184108178,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_makarna_eriste": {
+            "Accuracy": 0.18727272727272729,
+            "Report": {
+                "0": {
+                    "precision": 0.20361990950226244,
+                    "recall": 0.18292682926829268,
+                    "f1-score": 0.19271948608137046,
+                    "support": 246.0
+                },
+                "1": {
+                    "precision": 0.20657276995305165,
+                    "recall": 0.19383259911894274,
+                    "f1-score": 0.2,
+                    "support": 227.0
+                },
+                "2": {
+                    "precision": 0.16101694915254236,
+                    "recall": 0.19387755102040816,
+                    "f1-score": 0.17592592592592593,
+                    "support": 196.0
+                },
+                "3": {
+                    "precision": 0.19047619047619047,
+                    "recall": 0.18604651162790697,
+                    "f1-score": 0.18823529411764706,
+                    "support": 215.0
+                },
+                "4": {
+                    "precision": 0.17727272727272728,
+                    "recall": 0.18055555555555555,
+                    "f1-score": 0.17889908256880735,
+                    "support": 216.0
+                },
+                "accuracy": 0.18727272727272729,
+                "macro avg": {
+                    "precision": 0.18779170927135486,
+                    "recall": 0.18744780931822122,
+                    "f1-score": 0.18715595773875016,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.18889557144917057,
+                    "recall": 0.18727272727272729,
+                    "f1-score": 0.18763933193423196,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_salata_soguk": {
+            "Accuracy": 0.2018181818181818,
+            "Report": {
+                "0": {
+                    "precision": 0.22110552763819097,
+                    "recall": 0.1896551724137931,
+                    "f1-score": 0.20417633410672853,
+                    "support": 232.0
+                },
+                "1": {
+                    "precision": 0.17721518987341772,
+                    "recall": 0.1990521327014218,
+                    "f1-score": 0.1875,
+                    "support": 211.0
+                },
+                "2": {
+                    "precision": 0.19090909090909092,
+                    "recall": 0.20095693779904306,
+                    "f1-score": 0.1958041958041958,
+                    "support": 209.0
+                },
+                "3": {
+                    "precision": 0.18309859154929578,
+                    "recall": 0.17488789237668162,
+                    "f1-score": 0.17889908256880735,
+                    "support": 223.0
+                },
+                "4": {
+                    "precision": 0.23809523809523808,
+                    "recall": 0.24444444444444444,
+                    "f1-score": 0.2412280701754386,
+                    "support": 225.0
+                },
+                "accuracy": 0.2018181818181818,
+                "macro avg": {
+                    "precision": 0.2020847276130467,
+                    "recall": 0.20179931594707684,
+                    "f1-score": 0.20152153653103405,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20271936542024815,
+                    "recall": 0.2018181818181818,
+                    "f1-score": 0.2018411796710506,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_tatli": {
+            "Accuracy": 0.21181818181818182,
+            "Report": {
+                "0": {
+                    "precision": 0.17525773195876287,
+                    "recall": 0.17435897435897435,
+                    "f1-score": 0.17480719794344474,
+                    "support": 195.0
+                },
+                "1": {
+                    "precision": 0.21030042918454936,
+                    "recall": 0.2168141592920354,
+                    "f1-score": 0.21350762527233116,
+                    "support": 226.0
+                },
+                "2": {
+                    "precision": 0.22707423580786026,
+                    "recall": 0.2374429223744292,
+                    "f1-score": 0.23214285714285715,
+                    "support": 219.0
+                },
+                "3": {
+                    "precision": 0.22821576763485477,
+                    "recall": 0.2320675105485232,
+                    "f1-score": 0.2301255230125523,
+                    "support": 237.0
+                },
+                "4": {
+                    "precision": 0.21182266009852216,
+                    "recall": 0.19282511210762332,
+                    "f1-score": 0.20187793427230047,
+                    "support": 223.0
+                },
+                "accuracy": 0.21181818181818182,
+                "macro avg": {
+                    "precision": 0.21053416493690985,
+                    "recall": 0.2107017357363171,
+                    "f1-score": 0.21049222752869717,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.21159636591001757,
+                    "recall": 0.21181818181818182,
+                    "f1-score": 0.2115799462922747,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_icecek": {
+            "Accuracy": 0.19272727272727272,
+            "Report": {
+                "0": {
+                    "precision": 0.21052631578947367,
+                    "recall": 0.2222222222222222,
+                    "f1-score": 0.21621621621621623,
+                    "support": 216.0
+                },
+                "1": {
+                    "precision": 0.21875,
+                    "recall": 0.21777777777777776,
+                    "f1-score": 0.2182628062360802,
+                    "support": 225.0
+                },
+                "2": {
+                    "precision": 0.18396226415094338,
+                    "recall": 0.16883116883116883,
+                    "f1-score": 0.17607223476297967,
+                    "support": 231.0
+                },
+                "3": {
+                    "precision": 0.17886178861788618,
+                    "recall": 0.1981981981981982,
+                    "f1-score": 0.18803418803418803,
+                    "support": 222.0
+                },
+                "4": {
+                    "precision": 0.16842105263157894,
+                    "recall": 0.1553398058252427,
+                    "f1-score": 0.16161616161616163,
+                    "support": 206.0
+                },
+                "accuracy": 0.19272727272727272,
+                "macro avg": {
+                    "precision": 0.19210428423797643,
+                    "recall": 0.1924738345709219,
+                    "f1-score": 0.19204032137312516,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.1923543374042457,
+                    "recall": 0.19272727272727272,
+                    "f1-score": 0.1922918539750801,
+                    "support": 1100.0
+                }
+            }
+        },
+        "prefers_meyve": {
+            "Accuracy": 0.20272727272727273,
+            "Report": {
+                "0": {
+                    "precision": 0.21428571428571427,
+                    "recall": 0.1875,
+                    "f1-score": 0.2,
+                    "support": 240.0
+                },
+                "1": {
+                    "precision": 0.17272727272727273,
+                    "recall": 0.18357487922705315,
+                    "f1-score": 0.17798594847775176,
+                    "support": 207.0
+                },
+                "2": {
+                    "precision": 0.19831223628691982,
+                    "recall": 0.2079646017699115,
+                    "f1-score": 0.20302375809935205,
+                    "support": 226.0
+                },
+                "3": {
+                    "precision": 0.1926605504587156,
+                    "recall": 0.1926605504587156,
+                    "f1-score": 0.1926605504587156,
+                    "support": 218.0
+                },
+                "4": {
+                    "precision": 0.2372093023255814,
+                    "recall": 0.24401913875598086,
+                    "f1-score": 0.24056603773584906,
+                    "support": 209.0
+                },
+                "accuracy": 0.20272727272727273,
+                "macro avg": {
+                    "precision": 0.20303901521684078,
+                    "recall": 0.20314383404233224,
+                    "f1-score": 0.20284725895433367,
+                    "support": 1100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20325311497273388,
+                    "recall": 0.20272727272727273,
+                    "f1-score": 0.20273160232012782,
+                    "support": 1100.0
+                }
+            }
+        }
+    }
+}
+
+
+
+---------------------------- 3cu test -----------------
+
+without ai 
+
+[
+    {
+        "week": 1,
+        "menus": [
+            {
+                "status": "1",
+                "day": 1,
+                "menu": [
+                    {
+                        "id": 12,
+                        "food": "Sulu köfte",
+                        "price": 400,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 71,
+                        "food": "Kremalı Domates Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 135,
+                        "food": "Sade Makarna",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 181,
+                        "food": "Portakal",
+                        "price": 100,
+                        "color": "turuncu",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 582.6,
+                    "carbohydrate": 59.4,
+                    "protein": 26.4,
+                    "fat": 25.8,
+                    "fiber": 9.0
+                }
+            },
+            {
+                "status": "1",
+                "day": 2,
+                "menu": [
+                    {
+                        "id": 48,
+                        "food": "Patlıcan Musakka",
+                        "price": 300,
+                        "color": "kahverengi",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 74,
+                        "food": "Mercimek Çorbası",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 136,
+                        "food": "Kaşar Peynirli Makarna",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 184,
+                        "food": "Karpuz",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 560.1,
+                    "carbohydrate": 59.99999999999999,
+                    "protein": 24.4,
+                    "fat": 24.2,
+                    "fiber": 8.0
+                }
+            },
+            {
+                "status": "1",
+                "day": 3,
+                "menu": [
+                    {
+                        "id": 52,
+                        "food": "Kıymalı Karnabahar",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 90,
+                        "food": "Kelle Paça Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 140,
+                        "food": "Patlıcan Soslu Makarna",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 178,
+                        "food": "Armut",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 553.1,
+                    "carbohydrate": 54.400000000000006,
+                    "protein": 23.5,
+                    "fat": 26.9,
+                    "fiber": 10.8
+                }
+            },
+            {
+                "status": "1",
+                "day": 4,
+                "menu": [
+                    {
+                        "id": 49,
+                        "food": "Karnıyarık",
+                        "price": 300,
+                        "color": "kahverengi",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 99,
+                        "food": "Ispanaklı Lahana Çorbası",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 138,
+                        "food": "Havuç Soslu Makarna",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 164,
+                        "food": "Mercimek Salatası",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 588.6,
+                    "carbohydrate": 62.2,
+                    "protein": 24.7,
+                    "fat": 26.299999999999997,
+                    "fiber": 10.5
+                }
+            },
+            {
+                "status": "1",
+                "day": 5,
+                "menu": [
+                    {
+                        "id": 81,
+                        "food": "Patates Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 137,
+                        "food": "Domates Soslu Makarna",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 150,
+                        "food": "Patlıcan Musakka",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 182,
+                        "food": "Mandalina",
+                        "price": 100,
+                        "color": "turuncu",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 575.9999999999999,
+                    "carbohydrate": 60.8,
+                    "protein": 21.799999999999997,
+                    "fat": 26.1,
+                    "fiber": 8.4
+                }
+            }
+        ]
+    }
+]
+
+
+------------------------- 
+
+with ai 
+
+
+[
+    {
+        "week": 1,
+        "menus": [
+            {
+                "status": "1",
+                "day": 1,
+                "menu": [
+                    {
+                        "id": 68,
+                        "food": "Saç Kavurma",
+                        "price": 400,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 92,
+                        "food": "Nohutlu Pirinç Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 104,
+                        "food": "Peynirli Börek",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 159,
+                        "food": "Amerikan Salatası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 548.8000000000001,
+                    "carbohydrate": 48.699999999999996,
+                    "protein": 26.2,
+                    "fat": 27.299999999999997,
+                    "fiber": 8.8
+                }
+            },
+            {
+                "status": "1",
+                "day": 2,
+                "menu": [
+                    {
+                        "id": 56,
+                        "food": "Etli Kuru Fasulye",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 98,
+                        "food": "Şehriye Çorbası",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 109,
+                        "food": "Talaş Böreği",
+                        "price": 100,
+                        "color": "sarı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 164,
+                        "food": "Mercimek Salatası",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 543.7,
+                    "carbohydrate": 51.199999999999996,
+                    "protein": 26.3,
+                    "fat": 25.7,
+                    "fiber": 8.3
+                }
+            },
+            {
+                "status": "1",
+                "day": 3,
+                "menu": [
+                    {
+                        "id": 3,
+                        "food": "Rosto et(patatesli)",
+                        "price": 500,
+                        "color": "kahverengi",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 76,
+                        "food": "Domatesli Pirinç Çorbası",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 130,
+                        "food": "Zeytinyağlı Enginar",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 198,
+                        "food": "Sütlü İrmik Tatlısı",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 515.9,
+                    "carbohydrate": 50.800000000000004,
+                    "protein": 21.6,
+                    "fat": 24.5,
+                    "fiber": 10.4
+                }
+            },
+            {
+                "status": "1",
+                "day": 4,
+                "menu": [
+                    {
+                        "id": 1,
+                        "food": "Et haşlama",
+                        "price": 500,
+                        "color": "Kahverengi",
+                        "consistency": "Yumuşak"
+                    },
+                    {
+                        "id": 89,
+                        "food": "Ekşili Çorba",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 124,
+                        "food": "Zeytinyağlı Yaprak Sarma",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 195,
+                        "food": "Ayva Tatlısı",
+                        "price": 100,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 553.0,
+                    "carbohydrate": 61.1,
+                    "protein": 21.3,
+                    "fat": 24.299999999999997,
+                    "fiber": 10.0
+                }
+            },
+            {
+                "status": "1",
+                "day": 5,
+                "menu": [
+                    {
+                        "id": 61,
+                        "food": "Etli lahana sarma",
+                        "price": 300,
+                        "color": "kırmızı",
+                        "consistency": "katı"
+                    },
+                    {
+                        "id": 74,
+                        "food": "Mercimek Çorbası",
+                        "price": 100,
+                        "color": "kahverengi",
+                        "consistency": "sıvı"
+                    },
+                    {
+                        "id": 126,
+                        "food": "Zeytinyağlı Bakla",
+                        "price": 100,
+                        "color": "yeşil",
+                        "consistency": "yumuşak"
+                    },
+                    {
+                        "id": 172,
+                        "food": "Yoğurt",
+                        "price": 100,
+                        "color": "beyaz",
+                        "consistency": "yumuşak"
+                    }
+                ],
+                "total_nutrient_values": {
+                    "energy": 521.0,
+                    "carbohydrate": 47.2,
+                    "protein": 24.7,
+                    "fat": 25.1,
+                    "fiber": 8.600000000000001
+                }
+            }
+        ]
+    }
+]
+
+
+-------- 
+
+yapay zeka performance degerleri
+
+{
+    "Accuracy": {
+        "prefers_kebab_guvec": {
+            "Accuracy": 0.19548387096774195,
+            "Report": {
+                "0": {
+                    "precision": 0.21238938053097345,
+                    "recall": 0.19801980198019803,
+                    "f1-score": 0.2049530315969257,
+                    "support": 606.0
+                },
+                "1": {
+                    "precision": 0.19129082426127528,
+                    "recall": 0.2,
+                    "f1-score": 0.19554848966613672,
+                    "support": 615.0
+                },
+                "2": {
+                    "precision": 0.18,
+                    "recall": 0.17647058823529413,
+                    "f1-score": 0.1782178217821782,
+                    "support": 612.0
+                },
+                "3": {
+                    "precision": 0.18351477449455678,
+                    "recall": 0.18819776714513556,
+                    "f1-score": 0.1858267716535433,
+                    "support": 627.0
+                },
+                "4": {
+                    "precision": 0.2110939907550077,
+                    "recall": 0.2140625,
+                    "f1-score": 0.2125678820791311,
+                    "support": 640.0
+                },
+                "accuracy": 0.19548387096774195,
+                "macro avg": {
+                    "precision": 0.19565779400836264,
+                    "recall": 0.19535013147212554,
+                    "f1-score": 0.19542279935558302,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.19570185135927298,
+                    "recall": 0.19548387096774195,
+                    "f1-score": 0.19551290180016764,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_et_kizartma": {
+            "Accuracy": 0.2067741935483871,
+            "Report": {
+                "0": {
+                    "precision": 0.216,
+                    "recall": 0.20300751879699247,
+                    "f1-score": 0.20930232558139536,
+                    "support": 665.0
+                },
+                "1": {
+                    "precision": 0.197265625,
+                    "recall": 0.15905511811023623,
+                    "f1-score": 0.17611159546643418,
+                    "support": 635.0
+                },
+                "2": {
+                    "precision": 0.2220496894409938,
+                    "recall": 0.24033613445378152,
+                    "f1-score": 0.23083131557707828,
+                    "support": 595.0
+                },
+                "3": {
+                    "precision": 0.19428571428571428,
+                    "recall": 0.23168654173764908,
+                    "f1-score": 0.21134421134421136,
+                    "support": 587.0
+                },
+                "4": {
+                    "precision": 0.2035541195476575,
+                    "recall": 0.20388349514563106,
+                    "f1-score": 0.20371867421180276,
+                    "support": 618.0
+                },
+                "accuracy": 0.2067741935483871,
+                "macro avg": {
+                    "precision": 0.2066310296548731,
+                    "recall": 0.20759376164885807,
+                    "f1-score": 0.2062616244361844,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20673077330921222,
+                    "recall": 0.2067741935483871,
+                    "f1-score": 0.20590926939455526,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_tavuk": {
+            "Accuracy": 0.21193548387096775,
+            "Report": {
+                "0": {
+                    "precision": 0.19906687402799378,
+                    "recall": 0.20031298904538342,
+                    "f1-score": 0.1996879875195008,
+                    "support": 639.0
+                },
+                "1": {
+                    "precision": 0.19578313253012047,
+                    "recall": 0.22184300341296928,
+                    "f1-score": 0.208,
+                    "support": 586.0
+                },
+                "2": {
+                    "precision": 0.24473257698541329,
+                    "recall": 0.2377952755905512,
+                    "f1-score": 0.24121405750798722,
+                    "support": 635.0
+                },
+                "3": {
+                    "precision": 0.21311475409836064,
+                    "recall": 0.18870967741935485,
+                    "f1-score": 0.20017108639863132,
+                    "support": 620.0
+                },
+                "4": {
+                    "precision": 0.20893141945773525,
+                    "recall": 0.21129032258064517,
+                    "f1-score": 0.21010425020048115,
+                    "support": 620.0
+                },
+                "accuracy": 0.21193548387096775,
+                "macro avg": {
+                    "precision": 0.21232575141992469,
+                    "recall": 0.21199025360978077,
+                    "f1-score": 0.21183547632532007,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.2125827297280824,
+                    "recall": 0.21193548387096775,
+                    "f1-score": 0.21194524491418795,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_balik": {
+            "Accuracy": 0.2032258064516129,
+            "Report": {
+                "0": {
+                    "precision": 0.1914008321775312,
+                    "recall": 0.23115577889447236,
+                    "f1-score": 0.2094081942336874,
+                    "support": 597.0
+                },
+                "1": {
+                    "precision": 0.18524871355060035,
+                    "recall": 0.1821247892074199,
+                    "f1-score": 0.1836734693877551,
+                    "support": 593.0
+                },
+                "2": {
+                    "precision": 0.22063492063492063,
+                    "recall": 0.2220447284345048,
+                    "f1-score": 0.2213375796178344,
+                    "support": 626.0
+                },
+                "3": {
+                    "precision": 0.20361247947454844,
+                    "recall": 0.19435736677115986,
+                    "f1-score": 0.19887730553327987,
+                    "support": 638.0
+                },
+                "4": {
+                    "precision": 0.21723518850987433,
+                    "recall": 0.1873065015479876,
+                    "f1-score": 0.20116375727348296,
+                    "support": 646.0
+                },
+                "accuracy": 0.2032258064516129,
+                "macro avg": {
+                    "precision": 0.203626426869495,
+                    "recall": 0.20339783297110894,
+                    "f1-score": 0.20289206120920794,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20402417353067523,
+                    "recall": 0.2032258064516129,
+                    "f1-score": 0.2030089975077797,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_sebze": {
+            "Accuracy": 0.1996774193548387,
+            "Report": {
+                "0": {
+                    "precision": 0.20124804992199688,
+                    "recall": 0.2037914691943128,
+                    "f1-score": 0.20251177394034536,
+                    "support": 633.0
+                },
+                "1": {
+                    "precision": 0.21352313167259787,
+                    "recall": 0.1935483870967742,
+                    "f1-score": 0.20304568527918782,
+                    "support": 620.0
+                },
+                "2": {
+                    "precision": 0.20625,
+                    "recall": 0.2078740157480315,
+                    "f1-score": 0.20705882352941177,
+                    "support": 635.0
+                },
+                "3": {
+                    "precision": 0.19337979094076654,
+                    "recall": 0.1819672131147541,
+                    "f1-score": 0.1875,
+                    "support": 610.0
+                },
+                "4": {
+                    "precision": 0.18594436310395315,
+                    "recall": 0.21096345514950166,
+                    "f1-score": 0.19766536964980544,
+                    "support": 602.0
+                },
+                "accuracy": 0.1996774193548387,
+                "macro avg": {
+                    "precision": 0.20006906712786288,
+                    "recall": 0.19962890806067485,
+                    "f1-score": 0.19955633047975008,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20020751170970388,
+                    "recall": 0.1996774193548387,
+                    "f1-score": 0.19965489782183693,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_zeytinyagli": {
+            "Accuracy": 0.21387096774193548,
+            "Report": {
+                "0": {
+                    "precision": 0.23652173913043478,
+                    "recall": 0.2125,
+                    "f1-score": 0.22386831275720165,
+                    "support": 640.0
+                },
+                "1": {
+                    "precision": 0.2117465224111283,
+                    "recall": 0.21884984025559107,
+                    "f1-score": 0.2152395915161037,
+                    "support": 626.0
+                },
+                "2": {
+                    "precision": 0.20123839009287925,
+                    "recall": 0.21207177814029363,
+                    "f1-score": 0.20651310563939634,
+                    "support": 613.0
+                },
+                "3": {
+                    "precision": 0.20880913539967375,
+                    "recall": 0.21087314662273476,
+                    "f1-score": 0.2098360655737705,
+                    "support": 607.0
+                },
+                "4": {
+                    "precision": 0.21324717285945072,
+                    "recall": 0.21498371335504887,
+                    "f1-score": 0.2141119221411192,
+                    "support": 614.0
+                },
+                "accuracy": 0.21387096774193548,
+                "macro avg": {
+                    "precision": 0.21431259197871336,
+                    "recall": 0.21385569567473367,
+                    "f1-score": 0.2139137995255183,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.21450557371712395,
+                    "recall": 0.21387096774193548,
+                    "f1-score": 0.21401401619631152,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_etli_sebze": {
+            "Accuracy": 0.21806451612903227,
+            "Report": {
+                "0": {
+                    "precision": 0.2313546423135464,
+                    "recall": 0.25418060200668896,
+                    "f1-score": 0.24223107569721117,
+                    "support": 598.0
+                },
+                "1": {
+                    "precision": 0.22495606326889278,
+                    "recall": 0.20447284345047922,
+                    "f1-score": 0.21422594142259413,
+                    "support": 626.0
+                },
+                "2": {
+                    "precision": 0.2098138747884941,
+                    "recall": 0.19776714513556617,
+                    "f1-score": 0.20361247947454844,
+                    "support": 627.0
+                },
+                "3": {
+                    "precision": 0.2326241134751773,
+                    "recall": 0.2554517133956386,
+                    "f1-score": 0.24350408314773572,
+                    "support": 642.0
+                },
+                "4": {
+                    "precision": 0.18685121107266436,
+                    "recall": 0.17792421746293247,
+                    "f1-score": 0.18227848101265823,
+                    "support": 607.0
+                },
+                "accuracy": 0.21806451612903227,
+                "macro avg": {
+                    "precision": 0.217119980983755,
+                    "recall": 0.21795930429026109,
+                    "f1-score": 0.21717041215094954,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.21725459263689822,
+                    "recall": 0.21806451612903227,
+                    "f1-score": 0.21728945373662836,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_corba": {
+            "Accuracy": 0.19193548387096773,
+            "Report": {
+                "0": {
+                    "precision": 0.1792,
+                    "recall": 0.18887015177065766,
+                    "f1-score": 0.1839080459770115,
+                    "support": 593.0
+                },
+                "1": {
+                    "precision": 0.2231833910034602,
+                    "recall": 0.19846153846153847,
+                    "f1-score": 0.21009771986970685,
+                    "support": 650.0
+                },
+                "2": {
+                    "precision": 0.18530884808013356,
+                    "recall": 0.1837748344370861,
+                    "f1-score": 0.18453865336658354,
+                    "support": 604.0
+                },
+                "3": {
+                    "precision": 0.20180722891566266,
+                    "recall": 0.21069182389937108,
+                    "f1-score": 0.20615384615384616,
+                    "support": 636.0
+                },
+                "4": {
+                    "precision": 0.1719242902208202,
+                    "recall": 0.1766612641815235,
+                    "f1-score": 0.17426059152677859,
+                    "support": 617.0
+                },
+                "accuracy": 0.19193548387096773,
+                "macro avg": {
+                    "precision": 0.19228475164401532,
+                    "recall": 0.19169192255003537,
+                    "f1-score": 0.19179177137878528,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.19280259130621205,
+                    "recall": 0.19193548387096773,
+                    "f1-score": 0.1921661183674072,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_pilav": {
+            "Accuracy": 0.21774193548387097,
+            "Report": {
+                "0": {
+                    "precision": 0.20911949685534592,
+                    "recall": 0.21314102564102563,
+                    "f1-score": 0.2111111111111111,
+                    "support": 624.0
+                },
+                "1": {
+                    "precision": 0.23432835820895523,
+                    "recall": 0.25779967159277506,
+                    "f1-score": 0.24550430023455824,
+                    "support": 609.0
+                },
+                "2": {
+                    "precision": 0.21920289855072464,
+                    "recall": 0.19025157232704404,
+                    "f1-score": 0.2037037037037037,
+                    "support": 636.0
+                },
+                "3": {
+                    "precision": 0.19854280510018216,
+                    "recall": 0.17957166392092258,
+                    "f1-score": 0.18858131487889274,
+                    "support": 607.0
+                },
+                "4": {
+                    "precision": 0.22366522366522368,
+                    "recall": 0.2483974358974359,
+                    "f1-score": 0.23538344722854973,
+                    "support": 624.0
+                },
+                "accuracy": 0.21774193548387097,
+                "macro avg": {
+                    "precision": 0.21697175647608632,
+                    "recall": 0.21783227387584064,
+                    "f1-score": 0.2168567754313631,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.21699747158972923,
+                    "recall": 0.21774193548387097,
+                    "f1-score": 0.21682230223672186,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_borek": {
+            "Accuracy": 0.20290322580645162,
+            "Report": {
+                "0": {
+                    "precision": 0.19508196721311474,
+                    "recall": 0.19932998324958123,
+                    "f1-score": 0.19718309859154928,
+                    "support": 597.0
+                },
+                "1": {
+                    "precision": 0.18789808917197454,
+                    "recall": 0.19001610305958133,
+                    "f1-score": 0.188951160928743,
+                    "support": 621.0
+                },
+                "2": {
+                    "precision": 0.18397085610200364,
+                    "recall": 0.16185897435897437,
+                    "f1-score": 0.17220801364023872,
+                    "support": 624.0
+                },
+                "3": {
+                    "precision": 0.22706065318818042,
+                    "recall": 0.2246153846153846,
+                    "f1-score": 0.22583139984532097,
+                    "support": 650.0
+                },
+                "4": {
+                    "precision": 0.21641791044776118,
+                    "recall": 0.23848684210526316,
+                    "f1-score": 0.2269170579029734,
+                    "support": 608.0
+                },
+                "accuracy": 0.20290322580645162,
+                "macro avg": {
+                    "precision": 0.2020858952246069,
+                    "recall": 0.20286145747775697,
+                    "f1-score": 0.20221814618176506,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20229612133362326,
+                    "recall": 0.20290322580645162,
+                    "f1-score": 0.2023454072296386,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_makarna_eriste": {
+            "Accuracy": 0.20193548387096774,
+            "Report": {
+                "0": {
+                    "precision": 0.21428571428571427,
+                    "recall": 0.18608169440242056,
+                    "f1-score": 0.19919028340080971,
+                    "support": 661.0
+                },
+                "1": {
+                    "precision": 0.20441176470588235,
+                    "recall": 0.234006734006734,
+                    "f1-score": 0.21821036106750394,
+                    "support": 594.0
+                },
+                "2": {
+                    "precision": 0.2058319039451115,
+                    "recall": 0.20202020202020202,
+                    "f1-score": 0.20390824129141885,
+                    "support": 594.0
+                },
+                "3": {
+                    "precision": 0.1901743264659271,
+                    "recall": 0.182648401826484,
+                    "f1-score": 0.18633540372670807,
+                    "support": 657.0
+                },
+                "4": {
+                    "precision": 0.1962025316455696,
+                    "recall": 0.20875420875420875,
+                    "f1-score": 0.20228384991843393,
+                    "support": 594.0
+                },
+                "accuracy": 0.20193548387096774,
+                "macro avg": {
+                    "precision": 0.20218124820964095,
+                    "recall": 0.20270224820200985,
+                    "f1-score": 0.2019856278809749,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20219884922810644,
+                    "recall": 0.20193548387096774,
+                    "f1-score": 0.20160715942875232,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_salata_soguk": {
+            "Accuracy": 0.1803225806451613,
+            "Report": {
+                "0": {
+                    "precision": 0.17972350230414746,
+                    "recall": 0.194675540765391,
+                    "f1-score": 0.1869009584664537,
+                    "support": 601.0
+                },
+                "1": {
+                    "precision": 0.20146520146520147,
+                    "recall": 0.1724137931034483,
+                    "f1-score": 0.1858108108108108,
+                    "support": 638.0
+                },
+                "2": {
+                    "precision": 0.15604026845637584,
+                    "recall": 0.16460176991150444,
+                    "f1-score": 0.16020671834625322,
+                    "support": 565.0
+                },
+                "3": {
+                    "precision": 0.1791044776119403,
+                    "recall": 0.162406015037594,
+                    "f1-score": 0.17034700315457413,
+                    "support": 665.0
+                },
+                "4": {
+                    "precision": 0.18607954545454544,
+                    "recall": 0.2076069730586371,
+                    "f1-score": 0.19625468164794008,
+                    "support": 631.0
+                },
+                "accuracy": 0.1803225806451613,
+                "macro avg": {
+                    "precision": 0.18048259905844208,
+                    "recall": 0.18034081837531496,
+                    "f1-score": 0.17990403448520637,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.18104259544877485,
+                    "recall": 0.1803225806451613,
+                    "f1-score": 0.18016420336093905,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_tatli": {
+            "Accuracy": 0.20258064516129032,
+            "Report": {
+                "0": {
+                    "precision": 0.21389396709323583,
+                    "recall": 0.18932038834951456,
+                    "f1-score": 0.20085836909871244,
+                    "support": 618.0
+                },
+                "1": {
+                    "precision": 0.20029895366218237,
+                    "recall": 0.19970193740685543,
+                    "f1-score": 0.2,
+                    "support": 671.0
+                },
+                "2": {
+                    "precision": 0.19558359621451105,
+                    "recall": 0.1984,
+                    "f1-score": 0.19698173153296267,
+                    "support": 625.0
+                },
+                "3": {
+                    "precision": 0.19614147909967847,
+                    "recall": 0.20608108108108109,
+                    "f1-score": 0.20098846787479407,
+                    "support": 592.0
+                },
+                "4": {
+                    "precision": 0.2085987261146497,
+                    "recall": 0.22053872053872053,
+                    "f1-score": 0.2144026186579378,
+                    "support": 594.0
+                },
+                "accuracy": 0.20258064516129032,
+                "macro avg": {
+                    "precision": 0.20290334443685146,
+                    "recall": 0.20280842547523434,
+                    "f1-score": 0.2026462374328814,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20285490843358872,
+                    "recall": 0.20258064516129032,
+                    "f1-score": 0.20251109121799968,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_icecek": {
+            "Accuracy": 0.2035483870967742,
+            "Report": {
+                "0": {
+                    "precision": 0.1842948717948718,
+                    "recall": 0.19262981574539365,
+                    "f1-score": 0.18837018837018837,
+                    "support": 597.0
+                },
+                "1": {
+                    "precision": 0.19682539682539682,
+                    "recall": 0.1971383147853736,
+                    "f1-score": 0.19698173153296267,
+                    "support": 629.0
+                },
+                "2": {
+                    "precision": 0.20699708454810495,
+                    "recall": 0.24027072758037224,
+                    "f1-score": 0.22239624119028975,
+                    "support": 591.0
+                },
+                "3": {
+                    "precision": 0.21299093655589124,
+                    "recall": 0.21962616822429906,
+                    "f1-score": 0.21625766871165644,
+                    "support": 642.0
+                },
+                "4": {
+                    "precision": 0.21887550200803213,
+                    "recall": 0.17004680187207488,
+                    "f1-score": 0.19139596136962247,
+                    "support": 641.0
+                },
+                "accuracy": 0.2035483870967742,
+                "macro avg": {
+                    "precision": 0.2039967583464594,
+                    "recall": 0.20394236564150264,
+                    "f1-score": 0.20308035823494394,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.20425866712537868,
+                    "recall": 0.2035483870967742,
+                    "f1-score": 0.20300545957597052,
+                    "support": 3100.0
+                }
+            }
+        },
+        "prefers_meyve": {
+            "Accuracy": 0.19225806451612903,
+            "Report": {
+                "0": {
+                    "precision": 0.1723027375201288,
+                    "recall": 0.17863105175292154,
+                    "f1-score": 0.17540983606557378,
+                    "support": 599.0
+                },
+                "1": {
+                    "precision": 0.16896551724137931,
+                    "recall": 0.1678082191780822,
+                    "f1-score": 0.16838487972508592,
+                    "support": 584.0
+                },
+                "2": {
+                    "precision": 0.1933139534883721,
+                    "recall": 0.2180327868852459,
+                    "f1-score": 0.2049306625577812,
+                    "support": 610.0
+                },
+                "3": {
+                    "precision": 0.20521172638436483,
+                    "recall": 0.2016,
+                    "f1-score": 0.2033898305084746,
+                    "support": 625.0
+                },
+                "4": {
+                    "precision": 0.22110552763819097,
+                    "recall": 0.1935483870967742,
+                    "f1-score": 0.20641125879593433,
+                    "support": 682.0
+                },
+                "accuracy": 0.19225806451612903,
+                "macro avg": {
+                    "precision": 0.19217989245448722,
+                    "recall": 0.19192408898260477,
+                    "f1-score": 0.19170529353056998,
+                    "support": 3100.0
+                },
+                "weighted avg": {
+                    "precision": 0.1931800039712593,
+                    "recall": 0.19225806451612903,
+                    "f1-score": 0.1923568026740643,
+                    "support": 3100.0
+                }
+            }
+        }
+    }
+}

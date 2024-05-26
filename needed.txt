@@ -25,3 +25,26 @@ ssh shahmirzali@167.172.169.246
 error log
 
 sudo journalctl -u api.service -f
+
+
+
+
+kisitlar
+
+1. 4 cesid yemek olacak. detailed_food.json dosyasinda 4 kategori sekilinde ayrilmiştir. her menude her kategoriden sadece 1 yemek olacak sekilde ayarlanmasi gerek
+2. yemekler belirli bir sira ile verilmesi gerekiyor
+3. yemeklerin hepsi unique olmasi gerek
+4. Aynı renk ve kıvama sahip besinler 2den üzeri  kullanılmamalıdır  
+5. Sebze yemeklerinin yanına salata ibaresi içeren yiyecekler verilmemelidir. 
+6. Çorbaların yanına komposto, hoşaflar (FL-FP) verilmemelidir
+7. Etli dolma ve etli sarma kelimelerini içeren yemeklerin yanına ikinci kap olarak pilav çeşitleri verilmemelidir.
+8. Pirinç pilavı, yayla çorbası ve sütlaç aynı güne verilmemelidir.
+
+
+
+
+1. ci test
+
+1. 500 kullanici cevabi generate edildi
+2. yapay zeka modeli egitildi, metrikler alindi 
+3. 

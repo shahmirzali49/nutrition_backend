@@ -1,8 +1,6 @@
 from pydantic import BaseModel, EmailStr
 from datetime import datetime
 from typing import Optional, List, Dict
-
-
 from pydantic.types import conint
 
 
@@ -15,8 +13,7 @@ class UserOut(BaseModel):
 
     class Config:
         from_attributes = True
-
-
+            
 class UserCreate(BaseModel):
     email: EmailStr
     password: str
