@@ -12,6 +12,8 @@ source bin/activate
 sudo systemctl restart api
 
 
+
+
 ssh shahmirzali@167.172.169.246
 
 

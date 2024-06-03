@@ -33,7 +33,7 @@ def read_questions_from_json(file_path):
 
 # Cevapları sayısal değerlere dönüştürecek fonksiyon
 def convert_answers_to_numeric(questions, answer):
-    for i, option in enumerate(questions['ansers']):
+    for i, option in enumerate(questions['answers']):
         if answer == option:
             return i
     # Yaş aralığı için özel durum
@@ -46,13 +46,13 @@ def generate_user_responses(questions, distributions_dict):
     for question in questions:
         dist = distributions_dict.get(question['id'])
         if question['type'] == 'range':
-            age_range = question['ansers']
+            age_range = question['answers']
             answer = random.randint(int(age_range[0]), int(age_range[1]))
         else:
             if dist:
-                answer = random.choices(question['ansers'], weights=dist, k=1)[0]
+                answer = random.choices(question['answers'], weights=dist, k=1)[0]
             else:
-                answer = random.choice(question['ansers'])
+                answer = random.choice(question['answers'])
         numeric_answer = convert_answers_to_numeric(question, answer)
         user_responses.append(numeric_answer)
     return user_responses
@@ -195,11 +195,11 @@ def create_user_response(response: UserResponseModel, db: Session = Depends(get_
 #     for question in questions:
 #         if question['type'] == 'range':
 #             # Yaş aralığı için rastgele bir değer üret
-#             age_range = question['ansers'].split('-')
+#             age_range = question['answers'].split('-')
 #             answer = random.randint(int(age_range[0]), int(age_range[1]))
 #         else:
 #             # Radyo tipi sorular için rastgele bir seçenek seç
-#             answer = random.choice(question['ansers'])
+#             answer = random.choice(question['answers'])
 #         # Cevabı sayısal değere dönüştür
 #         numeric_answer = convert_answers_to_numeric(question, answer)
 #         user_responses.append(numeric_answer)
