@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "question": "Your age?",
+        "type": "range",
+        "food_category_id": null,
+        "answers": [
+            "18",
+            "64"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Your gender?",
+        "type": "radio",
+        "food_category_id": null,
+        "answers": [
+            "Female",
+            "Male"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Your activity level?",
+        "type": "radio",
+        "food_category_id": null,
+        "answers": [
+            "Very inactive",
+            "Inactive",
+            "Moderately active",
+            "Very active"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Your marital status?",
+        "type": "radio",
+        "food_category_id": null,
+        "answers": [
+            "Married",
+            "Single"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "How often do you prefer meatballs?",
+        "type": "radio",
+        "food_category_id": 1,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "How often do you choose kebab or stew dishes?",
+        "type": "radio",
+        "food_category_id": 2,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "How often do you consume fried meat dishes?",
+        "type": "radio",
+        "food_category_id": 3,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 8,
+        "question": "How often do you prefer chicken dishes?",
+        "type": "radio",
+        "food_category_id": 4,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 9,
+        "question": "How often do you eat fish dishes?",
+        "type": "radio",
+        "food_category_id": 5,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 10,
+        "question": "How often do you prefer vegetable dishes?",
+        "type": "radio",
+        "food_category_id": 6,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 11,
+        "question": "How often do you eat olive oil dishes?",
+        "type": "radio",
+        "food_category_id": 7,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 12,
+        "question": "How often do you consume vegetable dishes with meat?",
+        "type": "radio",
+        "food_category_id": 8,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 13,
+        "question": "How often do you drink soups?",
+        "type": "radio",
+        "food_category_id": 9,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 14,
+        "question": "How often do you consume rice?",
+        "type": "radio",
+        "food_category_id": 10,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 15,
+        "question": "How often do you eat pastries?",
+        "type": "radio",
+        "food_category_id": 11,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 16,
+        "question": "How often do you prefer pasta and noodles?",
+        "type": "radio",
+        "food_category_id": 12,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 17,
+        "question": "How often do you prefer salads and cold dishes?",
+        "type": "radio",
+        "food_category_id": 13,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 18,
+        "question": "How often do you consume desserts?",
+        "type": "radio",
+        "food_category_id": 14,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 19,
+        "question": "How is your daily beverage consumption?",
+        "type": "radio",
+        "food_category_id": 15,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    },
+    {
+        "id": 20,
+        "question": "How often do you consume fruits?",
+        "type": "radio",
+        "food_category_id": 16,
+        "answers": [
+            "Never",
+            "Rarely",
+            "Moderately",
+            "Often",
+            "Very often"
+        ]
+    }
+]

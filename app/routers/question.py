@@ -69,7 +69,8 @@ def check_all_questions_answered(
 @router.get("/all")
 def get_all_questions():
     
-    questions = read_questions_from_json('questions.json')
+    # questions = read_questions_from_json('questions.json')
+    questions = read_questions_from_json('questions_eng.json')
     return questions
 
 

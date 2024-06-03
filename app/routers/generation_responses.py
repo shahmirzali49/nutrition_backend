@@ -94,7 +94,7 @@ def generate_user_responses(questions, distributions_dict):
 
 @router.post("/responses")
 def generate_and_add_responses_to_db(response_distributions: UserResponseDistributions, db: Session = Depends(get_db)):
-    questions = read_questions_from_json('questions.json')
+    questions = read_questions_from_json('questions_eng.json')
     distributions_dict = {dist.question_id: dist.weights for dist in response_distributions.distributions if dist.weights}
 
     all_user_responses = []
